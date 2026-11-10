@@ -1,5 +1,8 @@
 # R&D Transparency, Market-Based Learning, and the Direction of Innovation
 
+> **Correction notice (2026-11-10):** The original manuscript's **general high-cost theorem without explicit quality-investment bounds has FAILED a global-deviation audit**. An exact incumbent monopoly-entry deviation is profitable for a parameter vector satisfying the former algebraic conditions. The general theorem must **not** be cited as proven without extra domain assumptions. The [corrected bounded-domain manuscript and full general audit are in draft PR #4](https://github.com/ryotamatsuki/rd-transparency-learning/pull/4). The normalized compact-domain finite-cost certificate is a separate, narrower result.
+
+
 Two-period Hotelling–Bertrand model of an incumbent (A) and an entrant (B). The entrant chooses **immediate quality R&D** and **future learning-capability R&D**; learning converts first-period market share into second-period quality. We compare observability (P) versus concealment (H) of the entrant's learning investment.
 
 > **Research status — 2026-11-10:** working research project; not a published paper. Algebraic sign certificates and a benchmark replication are available. Journal-grade equilibrium proof, robustness, and novelty assessment still require independent scrutiny.
