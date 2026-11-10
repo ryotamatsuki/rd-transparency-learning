@@ -1,5 +1,7 @@
 # Novelty matrix — theorem/mechanism-level comparison
 
+> **Stage 6 re-kill (2026-11-10):** The general public-hidden learning marginal wedge is an *absorbed strategic-commitment envelope term* (Fudenberg & Tirole 1984; Bulow et al. 1985). Kogan & El Ouardighi (2019) is additional close prior art for autonomous sales learning + induced quality-investment pricing. The *joint* conditional (s,b,lambda) result has not been shown a direct special case in inspected sources, but full theorem-level nonabsorption is **UNRESOLVED**; see [Stage 6 report](../audits/STAGE6_NOVELTY_REKILL_2026-11-10.md).
+
 > **2026-11-10 update:** The comprehensive, 24-entry bibliography and per-paper summaries are in [related_literature_master.md](related_literature_master.md); manuscript citation placement is in [citation_plan.md](citation_plan.md). This older matrix is retained as a compact first-stage comparison. Important additional close prior art: Spence (1981); Cabral & Riordan (1994); Cohen & Levinthal (1989, 1994); Lin & Zhou (2013); Besanko et al. (2019); Gill (2008); Lee & Wu (2026). See the master file for precise scopes and evidence levels.
 
 Status: **working assessment as of 2026-11-10**. Never claim that a feature is new merely because the same words are absent from abstracts. Read model, timing, information structure, propositions, welfare definitions, proofs and appendices before asserting non-derivability.
