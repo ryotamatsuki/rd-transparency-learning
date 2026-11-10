@@ -35,6 +35,8 @@ jobs:
         run: python code/stage4a_independent_audit.py | tee stage4a-independent-run.log
       - name: Run independent general-parameter Stage 4A checks and retained counterexample
         run: python code/general_high_cost_stage4a.py
+      - name: Stage 6 strategic commitment and learning feedback identity
+        run: python code/stage6_strategic_commitment_identity.py
       - name: Upload stdout for independent audit
         if: always()
         uses: actions/upload-artifact@v4
