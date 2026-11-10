@@ -1,5 +1,8 @@
 # R&D Transparency, Market-Based Learning, and the Direction of Innovation
 
+> **Stage 4A correction, 2026-11-10.** The originally proposed **unbounded-investment general high-learning-cost theorem FAILED** an exact profitable monopoly-price deviation (profit gain \(11/648\)) despite satisfying its advertised algebraic conditions. A **corrected general-parameter high-cost theorem** has a scoped pure-strategy proof on explicitly **bounded and uniformly interior** quality/learning investment domains. These caps are substantive model assumptions, not consequences of large learning cost. See the [general adversarial audit](audits/GENERAL_HIGH_COST_STAGE4A_2026-11-10.md), [independent code](code/general_high_cost_stage4a.py) and the [updated manuscript](paper/main.tex). Mixed-strategy equilibria, an unbounded-game claim, and novelty certification remain open.
+
+
 Two-period Hotelling–Bertrand model of an incumbent (A) and an entrant (B). The entrant chooses **immediate quality R&D** and **future learning-capability R&D**; learning converts first-period market share into second-period quality. We compare observability (P) versus concealment (H) of the entrant's learning investment.
 
 > **Research status — 2026-11-10:** working research project; not a published paper. Algebraic sign certificates and a benchmark replication are available. Journal-grade equilibrium proof, robustness, and novelty assessment still require independent scrutiny.
@@ -40,17 +43,24 @@ At benchmark (k_λ=0.3), the hidden equilibrium has (sapprox0.252492,;bapprox0.0
 
 - [docs/model.md](docs/model.md): definitions, timeline, price subgames, information structure.
 - [docs/propositions.md](docs/propositions.md): claim-by-claim proof status, assumptions, limitations.
+- [audits/STAGE4A_MINIMAL_AUDIT_2026-11-10.md](audits/STAGE4A_MINIMAL_AUDIT_2026-11-10.md): scoped independent global candidate-deviation and pure-equilibrium uniqueness audit (not general theorem or mixed PBE certification).
+- [code/stage4a_independent_audit.py](code/stage4a_independent_audit.py): separately reconstructed price/learning/Stage-0 exact algebra, multistart numerical attacks.
 - [docs/research_history.md](docs/research_history.md): research decisions and developments through 2026-11-10.
 - [results/benchmark.md](results/benchmark.md): values, inequalities, reproducibility cautions.
 - [literature/novelty_matrix.md](literature/novelty_matrix.md): closest prior work and non-claims.
 - [literature/related_literature_master.md](literature/related_literature_master.md): comprehensive 24-paper register with bibliography, Japanese-context summaries, distinctions and evidence levels.
 - [literature/citation_plan.md](literature/citation_plan.md): prioritized references, section placement and concise English related-literature paragraph plan.
 - [docs/roadmap.md](docs/roadmap.md): manuscript and referee-readiness checklist.
+- [docs/WORKFLOW_STATUS_2026-11-10.md](docs/WORKFLOW_STATUS_2026-11-10.md): v2.9 research workflow gate-by-gate status.
+- [docs/EXPOSITION_ARCHITECTURE_2026-11-10.md](docs/EXPOSITION_ARCHITECTURE_2026-11-10.md): section and exhibit necessity map.
+- [docs/PDF_QA_2026-11-10.md](docs/PDF_QA_2026-11-10.md): 13-page reproducible PDF build and page-level QA.
+- [docs/AUTHOR_AND_AI_PROVENANCE_2026-11-10.md](docs/AUTHOR_AND_AI_PROVENANCE_2026-11-10.md): research assistance and verification-role ledger.
 - [docs/manuscript_outline.md](docs/manuscript_outline.md): **recommended lean six-section submission structure**, numbered-results budget and model-paper examples.
 - [docs/theorem_architecture.md](docs/theorem_architecture.md): proposed lemma/proposition/theorem/corollary order, economic intuitions, proof dependencies, and caveats.
 - [code/finite_cost_proof.py](code/finite_cost_proof.py): original symbolic proof/certification script.
 - [results/finite_cost_proof_log.txt](results/finite_cost_proof_log.txt): original run log.
-- [paper/main.tex](paper/main.tex): English manuscript skeleton.
+- [paper/main.tex](paper/main.tex): **complete six-section English working manuscript v0.1**, with analytical appendices (not yet submission-certified).
+- [paper/BUILD_AND_REVIEW.md](paper/BUILD_AND_REVIEW.md): PDF compilation/review instructions and source identity.
 
 ## Reproduce
 

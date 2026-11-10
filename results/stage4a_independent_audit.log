@@ -1,0 +1,44 @@
+Price FOCs derived independently: -(L**2*d - L**2*pa + L**2*pb - L**2 + 2*L*d + 6*L - 18*d + 36*pa - 18*pb - 18)/36 (L**2*d - L**2*pa + L**2*pb - L**2 + 2*L*d - 6*L - 18*d + 18*pa - 36*pb + 18)/36
+D: (2*L*d + 9*d - 27)/(2*(L**2 - 27))
+Hidden deviator reoptimized D: (L*d - 3*L - 9*Z + 9*d - 9)/((L - 6)*(L + 6))
+EXACT POSITIVE D_onpath>0 lower numerator 21/2 lower denominator 52
+EXACT POSITIVE D_onpath<1 lower numerator 61/2 lower denominator 52
+EXACT POSITIVE pA_onpath>4/5 lower numerator 47/2 lower denominator 780
+EXACT POSITIVE pA_onpath<8/5 lower numerator 81 lower denominator 780
+EXACT POSITIVE pB_onpath>0 lower numerator 67/2 lower denominator 156
+EXACT POSITIVE hidden Ddev>0 lower numerator 27/10 lower denominator 35
+EXACT POSITIVE hidden Ddev<1 lower numerator 68/5 lower denominator 35
+EXACT POSITIVE hidden pBdev>0 lower numerator 21/10 lower denominator 35
+EXACT POSITIVE hidden gross payoff concavity bound Gll<1/10 lower numerator 62009/10 lower denominator 428750
+EXACT POSITIVE public V_B(d,0)-V_B(d,L)>0 for L>0 lower numerator 2885/4 lower denominator 48672
+EXACT POSITIVE -K_d>0 lower numerator 243 lower denominator 4056
+EXACT POSITIVE -K_l>0 lower numerator 8979/2 lower denominator 105456
+THRESHOLD 4343/32448 K(19/16,1/2) 134915/1099104
+EXACT POSITIVE TA_prime>0 lower numerator 1594323 lower denominator 1400724
+EXACT POSITIVE TA_prime<2 lower numerator 4882021/8 lower denominator 1400724
+EXACT POSITIVE TB_prime<0 lower numerator 398037/4 lower denominator 466908
+EXACT POSITIVE TB_prime>-2 lower numerator 3337227/4 lower denominator 466908
+EXACT POSITIVE TA_second<2 lower numerator 2541865828329 lower denominator 2171726693217/2
+EXACT POSITIVE TB_second<2 lower numerator 11330895934773/16 lower denominator 723908897739/2
+ANALYTIC CONSEQUENCE: Since 0<TA_prime<2 and -2<TB_prime<0, all stage-0 candidates lie in the action interior.
+ANALYTIC CONSEQUENCE: Stage-0 net own-action curvature is TA_second-4 or TB_second-4, both <-2.
+ANALYTIC CONSEQUENCE: Scalar F(d)=d-1-(TA_prime+TB_prime)/4 has F_prime>0 over [1/2,3/2]; F endpoints have opposite signs; hence exactly one pure Stage-0 profile.
+EXACT POSITIVE F(lower)<0 lower numerator 10038330 lower denominator 3063957305/8
+EXACT POSITIVE F(upper)>0 lower numerator 26780903023/8 lower denominator 91887955045/2
+EXACT POSITIVE ss > 11/48 lower numerator 65839635/128 lower denominator 55132773027/6400
+EXACT POSITIVE bb < 5/48 lower numerator 10185489001/65536 lower denominator 55132773027/6400
+EXACT POSITIVE public A profit > hidden lower numerator 1109164086696172461434677/209715200000 lower denominator 3039622661646698742729/81920000
+EXACT POSITIVE public B profit > hidden lower numerator 10054342857080232979901/4294967296 lower denominator 3039622661646698742729/81920000
+EXACT POSITIVE hidden W > public W lower numerator 567495667327626204771203/262144000000 lower denominator 3039622661646698742729/81920000
+EXACT POSITIVE hidden D1 < public D1 lower numerator 51/4 lower denominator 428
+EXACT POSITIVE hidden D2 > public D2 lower numerator 27/10 lower denominator 428
+ANALYTIC CONSEQUENCE: a single monotonic scalar root lies in the exact wedge and all substantive payoff/share signs hold throughout the wedge.
+MULTISTART {"k": 0.134, "d": 1.1954142067309095, "lam": 0.45330617374293497, "s": 0.2830992766491868, "b": 0.08768506991827797, "stage0A_gain": 6.661338147750939e-16, "stage0B_gain": -5.551115123125783e-17, "hiddenLambda_gain": 5.551115123125783e-17, "number_F_brackets": 1, "local_minima": [1, 1, 1]}
+MULTISTART {"k": 0.15, "d": 1.187673930109261, "lam": 0.4084709700791614, "s": 0.2770876645441514, "b": 0.08941373443489062, "stage0A_gain": -2.220446049250313e-16, "stage0B_gain": -5.551115123125783e-17, "hiddenLambda_gain": 0.0, "number_F_brackets": 1, "local_minima": [1, 1, 1]}
+MULTISTART {"k": 0.3, "d": 1.155746136712179, "lam": 0.2111017436435535, "s": 0.25249201539871285, "b": 0.09674587868653314, "stage0A_gain": -4.440892098500626e-16, "stage0B_gain": 5.551115123125783e-17, "hiddenLambda_gain": 0.0, "number_F_brackets": 1, "local_minima": [1, 1, 1]}
+MULTISTART {"k": 1.0, "d": 1.1340729167511583, "lam": 0.06460530469282359, "s": 0.2360079301081467, "b": 0.10193501335697276, "stage0A_gain": -4.440892098500626e-16, "stage0B_gain": 1.1102230246251565e-16, "hiddenLambda_gain": -5.551115123125783e-17, "number_F_brackets": 1, "local_minima": [1, 1, 1]}
+MULTISTART {"k": 3.0, "d": 1.128008811345533, "lam": 0.021647062837288452, "s": 0.231431225463968, "b": 0.10342241411843495, "stage0A_gain": 0.0, "stage0B_gain": 1.1102230246251565e-16, "hiddenLambda_gain": 5.551115123125783e-17, "number_F_brackets": 1, "local_minima": [1, 1, 1]}
+MULTISTART {"k": 20.0, "d": 1.1254503134401683, "lam": 0.0032539966851071896, "s": 0.22950532132990806, "b": 0.10405500788973979, "stage0A_gain": 2.220446049250313e-16, "stage0B_gain": 5.551115123125783e-17, "hiddenLambda_gain": 5.551115123125783e-17, "number_F_brackets": 1, "local_minima": [1, 1, 1]}
+MULTISTART {"k": 100.0, "d": 1.125090034027854, "lam": 0.0006509932613596506, "s": 0.22923436837290787, "b": 0.1041443343450538, "stage0A_gain": 2.220446049250313e-16, "stage0B_gain": 5.551115123125783e-17, "hiddenLambda_gain": 5.551115123125783e-17, "number_F_brackets": 1, "local_minima": [1, 1, 1]}
+PASS exact algebraic sign and independent multistart numerical pure-strategy checks within stated domains.
+LIMITATIONS no pure-strategy theorem outside compact action or cost bound; no mixed PBE exclusion; no formal proof assistant; independent symbolic certificates require human audit.

@@ -13,8 +13,8 @@ Both firms maximize first-period profit plus \(\delta\in(0,1]\) times second-per
 
 ## R&D and timing
 
-- Stage 0: A and B simultaneously choose \(s\ge0\) and \(b\ge0\), observed before pricing.
-- Stage 1: B chooses learning capability \(\lambda\ge0\). In P, A observes \(\lambda\); in H, A does not.
+- Stage 0: A and B simultaneously choose \(s\in[0,\bar s]\) and \(b\in[0,\bar b]\), observed before pricing. The **general high-cost global-equilibrium theorem** requires the explicit compact bounds shown below; a previously proposed claim about unbounded actions was falsified by a monopoly-deviation counterexample.
+- Stage 1: B chooses learning capability \(\lambda\in[0,\bar\lambda]\). In P, A observes \(\lambda\); in H, A does not. The general high-cost theorem requires \(\bar\lambda\) sufficiently small (while the separately audited normalized finite-cost example uses \(\bar\lambda=1\)).
 - Stage 2: simultaneous period-1 prices; B's resulting share is \(D_1\).
 - Stage 3: B learns \(\lambda D_1\); period-2 quality is observed; simultaneous period-2 prices.
 
@@ -84,3 +84,29 @@ Prices are transfers and cancel in aggregate surplus. Do not confuse gross marke
 \(t=\delta=d_0=1\), \(k_s=k_b=4\); restrict \(s,b\in[0,1/2]\), \(\lambda\in[0,1]\). All global-equilibrium statements from the finite-cost certificate are conditional on these compact strategy sets.
 
 Equivalent normalizations for other parameter values have **not** been established. See \`code/finite_cost_proof.py\` and \`docs/propositions.md\`.
+
+
+## General-parameter high-cost theorem: necessary scope correction (Stage 4A, 2026-11-10)
+
+**The original algebraic conditions alone do not establish a global equilibrium with unbounded quality investments.** The independent general-parameter audit found an exact, profitable incumbent deviation into the monopoly-price regime even while the old incumbent-profit sign condition is strictly satisfied. See [GENERAL_HIGH_COST_STAGE4A_2026-11-10.md](../audits/GENERAL_HIGH_COST_STAGE4A_2026-11-10.md).
+
+For the **corrected compact-game theorem**, impose
+
+\[
+0<d_0-\bar b<d_0+\bar s<3t,\qquad
+0<s_*<\bar s,\quad 0<b_*<\bar b,
+\]
+
+where \(s_*,b_*\) are the zero-learning equilibrium quality investments and \(\bar\lambda>0\) is sufficiently small to ensure every feasible period-1 and period-2 price continuation remains globally interior and unique, and all hidden B price best replies are globally interior. This is a **substantive model restriction**, not a consequence of a large \(k_\lambda\).
+
+Under \(k_s>c,k_b>c,\Delta>0\), a high-learning-cost threshold \(K_0\) exists (depending on parameters and action caps): for all \(k_\lambda>K_0\), there is a unique **pure-strategy** equilibrium in each regime in the compact game. Under \(d_*\ge t\) and the strict incumbent-profit restriction in the manuscript, it satisfies the R&D and private-profit/social-welfare signs. Existence of \(K_0\) is established by uniform smooth continuation/strong monotonicity; **no universal explicit finite \(K_0\)** is asserted for general parameters. Unbounded action sets and mixed PBE are not covered.
+
+**Exactly verified counterexample to the discarded unbounded claim:**
+
+\[
+t=\delta=d_0=1,\quad k_s=4/5,\quad k_b=4,\quad
+d_*=5/2,\quad s_*=55/36,\quad b_*=1/36.
+\]
+Even though \(\Delta>0\) and the strict incumbent-profit condition holds, A can change \(s\) to \(5/2\), generating \(d=125/36>3t\) and increasing net profits by \(11/648>0\) in the zero-learning public benchmark. This survives the high-learning-cost limit.
+
+The nonasymptotic \(k_\lambda>4343/32448\) result is **only** for \(t=\delta=d_0=1,\;k_s=k_b=4,\;\bar s=\bar b=1/2,\;\bar\lambda=1\); it is not an explicit general-parameter threshold.
