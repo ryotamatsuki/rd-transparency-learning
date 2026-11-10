@@ -351,6 +351,115 @@ h(d)=\frac{\delta(3t-d)^2}{54t^2}.
 \]
 The positive hidden optimum is unique for every feasible $d$. The global claim relies on the explicit action bounds, uniform price admissibility, and the full-interval concavity and monotonicity results below, not on a local first-order condition alone.
 
+\subsection*{Globality of the learning choices}
+
+At the zero-learning benchmark, the static differentiated Bertrand prices
+$p_A=t+d/3$ and $p_B=t-d/3$ and both market shares are strictly positive
+uniformly over $J$. The associated first-period price game has no corner
+Nash equilibrium for any $d\in J$. A monopoly corner with zero B demand
+would require A to set a price low enough to prevent profitable entry by B;
+for $d<3t$, raising A's price toward the sharing region is profitable.
+The opposite monopoly corner is excluded by A's ability to enter at a
+strictly positive price. By compactness of $J$, continuity of global
+best responses, and nonsingularity of the interior price-FOC system,
+there exists a common $\bar\lambda>0$ for which every feasible
+public price subgame has the unique interior equilibrium in
+Lemma~\ref{lem:prices}. Choosing the cap below $d_0-\bar b$ also ensures
+the second-period gap remains in $(-3t,3t)$ at all realized shares.
+The same uniform argument ensures B's own global price best reply to
+A's on-belief price stays strictly interior when B deviates secretly.
+
+For a hidden Stage-1 deviation to an arbitrary feasible
+$\lambda'$, A's first-period price $z$ cannot change with $\lambda'$.
+After B optimizes its own price, its first-period market share is
+\begin{equation}
+ D_{\rm dev}(d,\lambda',z)=
+ \frac{9t(t-d+z)+\delta\lambda'(3t-d)}
+ {36t^2-\delta(\lambda')^2}.
+ \label{eq:hidden_deviation_demand}
+\end{equation}
+The envelope derivative of B's gross continuation payoff is
+\begin{equation}
+ G_{\rm dev}(d,\lambda',z)=
+ \frac{\delta}{9t}D_{\rm dev}(d,\lambda',z)
+ \left[3t-d+\lambda'D_{\rm dev}(d,\lambda',z)\right].
+ \label{eq:hidden_deviation_der}
+\end{equation}
+This function and its first derivative in $\lambda'$ are uniformly bounded
+on the compact admissible set, where $z$ remains near $t+d/3$.
+Thus $\kl>\sup|\partial_{\lambda'}G_{\rm dev}|$ ensures
+B's net hidden learning payoff is \emph{strictly concave on its entire
+feasible learning interval}. Its derivative at zero is strictly positive
+and, for large enough $\kl$, its derivative at $\bar\lambda$ is
+negative. Consequently, a unique global interior best response exists,
+and at a pure equilibrium it solves
+\begin{equation}
+ \kl\lambda^H(d)=
+ \frac{\delta}{9t}D_1^*(d,\lambda^H(d))
+ \left[3t-d+\lambda^H(d)D_1^*(d,\lambda^H(d))\right].
+ \label{eq:hidden_global_foc}
+\end{equation}
+Since the right side is smooth with bounded $\lambda$-derivative
+uniformly on $J$, this root is unique for sufficiently large $\kl$,
+and $\lambda^H(d)=\eta h(d)+O_{C^2}(\eta^2)$.
+In the public regime, the gross derivative in
+\eqref{eq:publicder} is strictly negative uniformly on $J$.
+The learning cap can be chosen small enough for this derivative to
+remain negative throughout the \emph{entire} feasible learning interval.
+This gives a unique global public best response $\lambda^P(d)=0$.
+
+\subsection*{Global stage-0 optimality and alternative pure equilibria}
+
+Let $T_A(d,\eta)$ and $T_B(d,\eta)$ denote the stage-0
+continuation profit functions under the equilibrium learning policy
+(with B's learning cost already deducted from $T_B$).
+The preceding uniform implicit-function argument gives
+\[
+(T_A,T_B)=
+(F_A+\eta u_A,\;F_B+\eta u_B)+O_{C^2}(\eta^2)
+\]
+on all of $J$. Set $d=d_0+s-b$ and define the pseudo-gradient
+\[
+\mathcal G(s,b;\eta)=
+\begin{pmatrix}
+T_A'(d,\eta)-k_s s\\
+-T_B'(d,\eta)-k_b b
+\end{pmatrix}.
+\]
+At $\eta=0$ its Jacobian is the \emph{constant} matrix
+\begin{equation}
+ D_{(s,b)}\mathcal G(s,b;0)
+=-\begin{pmatrix}
+ k_s-c&c\\ c&k_b-c
+\end{pmatrix}.
+ \label{eq:strongmonotonic}
+\end{equation}
+The stability assumptions \eqref{eq:stability} make this matrix
+strictly negative definite. Uniform $C^2$ convergence keeps the
+symmetric part of the pseudo-gradient Jacobian negative definite
+throughout the \emph{entire} compact quality-investment rectangle for
+all sufficiently small $\eta>0$.
+Each firm's own payoff is therefore strictly concave on its whole
+feasible investment interval, so a pure Nash equilibrium exists by
+the standard compact concave-game existence argument.
+If two different pure Nash profiles existed, their best-response
+variational inequalities would contradict the strict monotonicity
+implied by \eqref{eq:strongmonotonic}.
+This proves uniqueness and the absence of \emph{all finite}
+stage-0 unilateral quality-investment deviations, not just infinitesimal
+ones. The unique equilibrium is interior for sufficiently small $\eta$
+because its zero-learning limit $(s_*,b_*)$ is strictly interior by
+\eqref{eq:gapcap}.
+
+The bounded domain is an actual economic restriction, not an implicit
+claim that all larger investments are dominated: for unbounded quality
+actions, a firm's deviation may cross $d=3t$ and induce a
+monopoly-price continuation. The original unconstrained
+parameter inequalities do not by themselves rule that out.
+The precise counterexample and the independent replication code
+are retained in the project audit record.
+
+
 Define
 \begin{align}
 g_A(d)&=-\frac{\delta(9t-2d)(3t+d)}{81t^2},\nonumber\\
