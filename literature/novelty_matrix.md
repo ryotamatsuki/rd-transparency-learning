@@ -1,5 +1,7 @@
 # Novelty matrix — theorem/mechanism-level comparison
 
+> **2026-11-10 update:** The comprehensive, 24-entry bibliography and per-paper summaries are in [related_literature_master.md](related_literature_master.md); manuscript citation placement is in [citation_plan.md](citation_plan.md). This older matrix is retained as a compact first-stage comparison. Important additional close prior art: Spence (1981); Cabral & Riordan (1994); Cohen & Levinthal (1989, 1994); Lin & Zhou (2013); Besanko et al. (2019); Gill (2008); Lee & Wu (2026). See the master file for precise scopes and evidence levels.
+
 Status: **working assessment as of 2026-11-10**. Never claim that a feature is new merely because the same words are absent from abstracts. Read model, timing, information structure, propositions, welfare definitions, proofs and appendices before asserting non-derivability.
 
 ## Prior literature (bibliography cross-checked where DOI shown)
@@ -14,7 +16,7 @@ Status: **working assessment as of 2026-11-10**. Never claim that a feature is n
 | [Huang et al. (2023)](https://doi.org/10.1016/j.econmod.2022.106144), *Intended and unintended effects of mandatory R&D disclosure on innovation outcomes*, Economic Modelling 119, 106144 | Disclosure pressure can shift innovation toward quick-return research, with investor/media pressure | "Disclosure tilts innovation toward short-run outcomes" | Contrast capital-market managerial pressure with product-market price-defense channel |
 | [Chen, Liang & Petrov (2024)](https://doi.org/10.1111/1475-679X.12546), *Innovation and Financial Disclosure*, Journal of Accounting Research 62, 935–979 | Two-period innovation/exploration, exploitation, strategic financial disclosure | Disclosure and explore/exploit trade-off as an idea | Contrast bandit/financial performance information with price-setting against customer-experience learning |
 | [Kim & Poggi (2025 working paper, revised September 2026)](https://ideas.repec.org/p/bon/boncrc/crctr224_2025_648v2.html), *Strategic Concealment in Innovation Races* | Dynamic race; division between direct development and research for better technology; strategic concealment/patents/spillovers | "Short-term development vs long-term research allocation under secrecy" | Read latest 2026 revision and all propositions; isolate reliance on innovation race, patent policy, interfirm spillovers |
-| [Lee & Wu (2026), Social Value of Transparency in R&D Races](https://scholar.google.com/scholar?q=Social+Value+of+Transparency+in+R%26D+Races+Lee+Wu+2026) | Previously surfaced as relevant working paper; details not independently verified in this repo | No priority claims pending direct-source verification | Verify exact title, authors, version and full text before citing in manuscript |
+| [Lee & Wu (2026), Social Value of Transparency in R&D Races](https://doi.org/10.2139/ssrn.7476358) | Seung Lee and Sang Wu, 2026 working paper (SSRN posted September 2026); multi-stage R&D race where intermediate breakthrough disclosure changes follower continuation/exit and welfare | Not a published journal article; secrecy may improve welfare in some R&D races | Full-text theorem comparison still pending; title/authors/abstract and working-paper status confirmed |
 
 ## Hypothesized distinctive mechanism
 
@@ -39,5 +41,5 @@ Status: **working assessment as of 2026-11-10**. Never claim that a feature is n
 
 ## Verification log
 
-- Bibliographic identification/DOIs for eight entries checked against journal, publisher, RePEc, author or university pages on 2026-11-10.
+- Bibliographic details and abstracts for the extended set of 24 works checked against journal, publisher, RePEc, author or university pages as of 2026-11-10; see [related_literature_master.md](related_literature_master.md). Section 7.3 of Baik & Kim (2020) was inspected in the author-hosted full text, including its conditional welfare reversal (theta <= 0.52 and theta >= 0.53).
 - Theorem-level comparison is *in progress*. Strong priority and novelty conclusions remain **unverified**.
