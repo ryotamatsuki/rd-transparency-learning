@@ -1,5 +1,8 @@
 # R&D Transparency, Market-Based Learning, and the Direction of Innovation
 
+> **Stage 4A correction, 2026-11-10.** The originally proposed **unbounded-investment general high-learning-cost theorem FAILED** an exact profitable monopoly-price deviation (profit gain \(11/648\)) despite satisfying its advertised algebraic conditions. A **corrected general-parameter high-cost theorem** has a scoped pure-strategy proof on explicitly **bounded and uniformly interior** quality/learning investment domains. These caps are substantive model assumptions, not consequences of large learning cost. See the [general adversarial audit](audits/GENERAL_HIGH_COST_STAGE4A_2026-11-10.md), [independent code](code/general_high_cost_stage4a.py) and the [updated manuscript](paper/main.tex). Mixed-strategy equilibria, an unbounded-game claim, and novelty certification remain open.
+
+
 Two-period Hotelling–Bertrand model of an incumbent (A) and an entrant (B). The entrant chooses **immediate quality R&D** and **future learning-capability R&D**; learning converts first-period market share into second-period quality. We compare observability (P) versus concealment (H) of the entrant's learning investment.
 
 > **Research status — 2026-11-10:** working research project; not a published paper. Algebraic sign certificates and a benchmark replication are available. Journal-grade equilibrium proof, robustness, and novelty assessment still require independent scrutiny.
