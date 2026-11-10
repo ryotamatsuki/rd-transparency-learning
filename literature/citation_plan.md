@@ -22,7 +22,7 @@ Write: A firm may set a current price with a view to how the resulting sales cha
 
 ### Group III: R&D direction, learning capacity, and disclosure-driven short horizon (4–5)
 
-**Core:** \citep{CohenLevinthal1994,LinZhou2013,KimPoggi2026,HuangLiuChanChen2023}; optional \citep{ChenLiangPetrov2024,CohenLevinthal1989}.
+**Core:** \citep{CohenLevinthal1994,LinZhou2013,KimPoggi2026,HuangEtAl2023}; optional \citep{ChenLiangPetrov2024,CohenLevinthal1989}.
 
 Write: Investment in learning capability and endogenous portfolios are familiar; information disclosure can steer firms toward quick-return innovation. Explain *why those mechanisms are not ours*: absorb external knowledge (Cohen & Levinthal), across-product portfolio specialization (Lin & Zhou), patent/innovation-race technology allocation (Kim & Poggi), capital market monitoring/managerial impatience (Huang/Chen). Our candidate mechanism is market-price defense interacting with own customer-experience learning.
 
@@ -41,7 +41,7 @@ Write: Investment in learning capability and endogenous portfolios are familiar;
 "The dynamic effects of current prices and sales through learning-by-doing are established in [Spence1981,CabralRiordan1994,BesankoDoraszelskiKryukov2014]. Our departure is that the entrant chooses the rate at which customer experience is transformed into future quality, and a rival may condition its first-period price on the publicly observed rate. The induced price response alters the entrant's choice between immediate quality improvement and future learning capability."
 
 **Paragraph C — Direction of R&D (~100–130 words):**
-"R&D can build an ability to learn [CohenLevinthal1994] and competition can redirect R&D portfolios [LinZhou2013]. Technology research versus development under strategic concealment is studied in [KimPoggi2026]. Furthermore, mandatory disclosure can create a short-horizon innovation bias through capital-market pressure [HuangLiuChanChen2023], while financial reporting affects technological exploration choices [ChenLiangPetrov2024]. The present model isolates a different, purely product-market reason for such reorientation: observability permits a competitor to defend its current customer base, reducing the future return to experience-dependent R&D."
+"R&D can build an ability to learn [CohenLevinthal1994] and competition can redirect R&D portfolios [LinZhou2013]. Technology research versus development under strategic concealment is studied in [KimPoggi2026]. Furthermore, mandatory disclosure can create a short-horizon innovation bias through capital-market pressure [HuangEtAl2023], while financial reporting affects technological exploration choices [ChenLiangPetrov2024]. The present model isolates a different, purely product-market reason for such reorientation: observability permits a competitor to defend its current customer base, reducing the future return to experience-dependent R&D."
 
 **Final contribution sentence:** say "We characterize sufficient conditions for..." not "We discover the first...". Mention strategic effects and conditional private/social rankings; no universal disclosure recommendation.
 
@@ -50,7 +50,7 @@ Write: Investment in learning capability and endogenous portfolios are familiar;
 | Claim in draft | The references a referee will compare first | Our burden |
 |---|---|---|
 | Public P reduces learning-rate investment | BaikKim2020, Sengupta2016 | Identify \(\lambda D_1\) and off-equilibrium pricing response |
-| P increases B's immediate-quality investment while decreasing learning investment | KimPoggi2026, LinZhou2013, CohenLevinthal1994, HuangLiuChanChen2023 | Demonstrate exact economic investment margin, not generic "short termism" |
+| P increases B's immediate-quality investment while decreasing learning investment | KimPoggi2026, LinZhou2013, CohenLevinthal1994, HuangEtAl2023 | Demonstrate exact economic investment margin, not generic "short termism" |
 | Both firms favor P but society favors H | **BaikKim2020 Section 7.3**, JiangXiong2025 | Present as an old sign pattern under a *new candidate mechanism*, not first observation |
 | Hidden B share falls today but rises tomorrow | Spence1981, CabralRiordan1994, BesankoDoraszelskiKryukov2014 | Compare model structures and prove result within ours |
 | Voluntary disclosures | BaikKim2025, JiangXiong2025, Gill2008 | **Not analyzed by present game** |
