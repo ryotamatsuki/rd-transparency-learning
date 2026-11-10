@@ -1,0 +1,10 @@
+EXACT GENERAL THEOREM CORNER COUNTEREXAMPLE: {'delta': '1', 't': '1', 'd0': '1', 'ks': '4/5', 'kb': '4', 'dstar': '5/2', 'sstar': '55/36', 'bstar': '1/36', 'AconditionMargin': '125/559872', 'A_monopoly_deviation_s': '5/2', 'A_monopoly_deviation_gap': '125/36', 'original_A_profit': '1573/648', 'deviation_A_profit': '22/9', 'gain': '11/648'}
+SYMBOLIC GENERAL MODEL IDENTITIES: PASS
+NUMERIC PURE-STRATEGY FINITE-DEVIATION PASS: {'t': 1.0, 'delta': 1.0, 'd0': 1.0, 'ks': 4.0, 'kb': 4.0, 'S': 0.5, 'B': 0.5, 'L': 0.2, 'K': 20.0} gains: 4.440892098500626e-16 0.0 0.0
+NUMERIC PURE-STRATEGY FINITE-DEVIATION PASS: {'t': 1.0, 'delta': 0.5, 'd0': 1.0, 'ks': 4.0, 'kb': 4.0, 'S': 0.5, 'B': 0.5, 'L': 0.2, 'K': 20.0} gains: 0.0 1.6653345369377348e-16 5.551115123125783e-17
+NUMERIC PURE-STRATEGY FINITE-DEVIATION PASS: {'t': 1.0, 'delta': 0.75, 'd0': 1.2, 'ks': 4.0, 'kb': 5.0, 'S': 0.5, 'B': 0.5, 'L': 0.2, 'K': 20.0} gains: 2.220446049250313e-16 0.0 0.0
+NUMERIC PURE-STRATEGY FINITE-DEVIATION PASS: {'t': 2.0, 'delta': 1.0, 'd0': 2.0, 'ks': 2.0, 'kb': 2.0, 'S': 1.0, 'B': 1.0, 'L': 0.4, 'K': 20.0} gains: 4.440892098500626e-16 1.1102230246251565e-16 -1.1102230246251565e-16
+NUMERIC PURE-STRATEGY FINITE-DEVIATION PASS: {'t': 1.0, 'delta': 0.8, 'd0': 1.05, 'ks': 3.0, 'kb': 5.0, 'S': 0.5, 'B': 0.5, 'L': 0.2, 'K': 20.0} gains: 2.220446049250313e-16 1.1102230246251565e-16 5.551115123125783e-17
+NUMERIC PURE-STRATEGY FINITE-DEVIATION PASS: {'t': 1.0, 'delta': 0.6, 'd0': 1.2, 'ks': 8.0, 'kb': 7.0, 'S': 0.5, 'B': 0.5, 'L': 0.2, 'K': 20.0} gains: 0.0 1.6653345369377348e-16 0.0
+WROTE general_high_cost_numeric_results.json
+PASS: all checked symbolic identities, exact boundary counterexample and numerical regressions
