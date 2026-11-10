@@ -30,6 +30,7 @@
 - Independently derived W_lambda, baseline W_s and W_b, u_A' and u_B' in SymPy; matched the general expansion.
 - Re-ran the pre-existing certificate code: all scripted rational Bernstein checks printed success and the finite-cost numerical benchmark matched.
 - Independently solved the fixed-(s,b) hidden-learning counterfactual at k_lambda=0.3: lambda about 0.2185406068, welfare about -0.9295847447.
+- Independent direct-payoff *numerical* solver: optimized A's and B's Stage-0 investment against the other candidate action over the full [0,0.5] box, and B's hidden Stage-1 investment with A's current price fixed over [0,1]. At k_lambda=0.3, all optimization improvements were within numerical precision (~1e-16). Also sampled 101 off-path quality gaps and found interior learning and positive prices. Evidence: `code/independent_payoff_audit.py`; this complements but does not replace the exact algebraic certificates.
 - **Not done:** independent global continuation solver, comprehensive boundary/alternative equilibrium search, Lean/other formal proof, theorem priority/full-text mapping, author verification.
 
 ## Editorial and reproducibility checks
