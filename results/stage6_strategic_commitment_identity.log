@@ -1,0 +1,17 @@
+Stage 6 — independent SymPy scratch verification, 2026-11-10
+Inputs: Hotelling demand D=(t-d+p_A-p_B)/(2*t);
+q_2=-d+lambda*D; gross continuation payoffs at price equilibrium.
+
+PUBLIC marginal: -2*d*delta*(3*t-d)/(81*t**2)
+HIDDEN marginal: delta*(3*t-d)**2/(54*t**2)
+PUBLIC-minus-HIDDEN: -delta*(3*t-d)*(d+9*t)/(162*t**2)
+(payoff slope w.r.t. p_A)*(incumbent p_A response):
+  -delta*(3*t-d)*(d+9*t)/(162*t**2)
+
+Independent no-feedback control q_2=-d+lambda:
+p_A^*=t+d/3; p_B^*=t-d/3; both independent of lambda.
+Public minus hidden marginal investment return = 0.
+
+All symbolic differences simplify exactly to zero in SymPy.
+Status: PASS (encoded algebra identities only; not proof of paper novelty,
+not a certification of global game equilibrium).
