@@ -1,0 +1,4 @@
+# Tested from the 2026-11-10 research script. Keep numerical and exact-algebra roles separate.
+sympy>=1.12,<2
+numpy>=1.26,<3
+scipy>=1.11,<2
