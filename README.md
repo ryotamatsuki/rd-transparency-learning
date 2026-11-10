@@ -43,6 +43,8 @@ At benchmark (k_λ=0.3), the hidden equilibrium has (sapprox0.252492,;bapprox0.0
 - [docs/research_history.md](docs/research_history.md): research decisions and developments through 2026-11-10.
 - [results/benchmark.md](results/benchmark.md): values, inequalities, reproducibility cautions.
 - [literature/novelty_matrix.md](literature/novelty_matrix.md): closest prior work and non-claims.
+- [literature/related_literature_master.md](literature/related_literature_master.md): comprehensive 24-paper register with bibliography, Japanese-context summaries, distinctions and evidence levels.
+- [literature/citation_plan.md](literature/citation_plan.md): prioritized references, section placement and concise English related-literature paragraph plan.
 - [docs/roadmap.md](docs/roadmap.md): manuscript and referee-readiness checklist.
 - [docs/manuscript_outline.md](docs/manuscript_outline.md): **recommended lean six-section submission structure**, numbered-results budget and model-paper examples.
 - [docs/theorem_architecture.md](docs/theorem_architecture.md): proposed lemma/proposition/theorem/corollary order, economic intuitions, proof dependencies, and caveats.
