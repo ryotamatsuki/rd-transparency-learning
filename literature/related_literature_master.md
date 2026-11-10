@@ -273,3 +273,39 @@ See [citation_plan.md](citation_plan.md) for the minimum citation set and an Eng
 ## Source access and copyright
 
 Links above point to publisher pages, DOI landing pages, author copies, or institution bibliographic records. This repo stores **our own summaries and citations, not copyrighted journal PDFs**. The 2026 unpublished papers have version and status caveats. **"F" means targeted inspection; no strong priority statement is authorized yet.**
+
+
+## D. New Stage-6 parent-class threats (2026-11-10)
+
+### D01. Fudenberg & Tirole (1984) — canonical strategic investment [A for generic-theory disclosure; bibliographic/standard-mechanism evidence]
+Drew Fudenberg and Jean Tirole (1984), “The Fat-Cat Effect, the Puppy-Dog Ploy, and the Lean and Hungry Look,” *American Economic Review* 74(2), 361–366. [RePEc](https://ideas.repec.org/a/aea/aecrev/v74y1984i2p361-66.html); [MIT faculty bibliography](https://economics.mit.edu/people/faculty/drew-fudenberg/publications).
+
+**Summary:** Pre-commitment in product markets shifts a follower's downstream reaction; an investment's strategic return can differ from its technological/direct return. Thus the **observability-induced price response** and related envelope term in our Proposition 1 are not an independently novel economic principle.
+
+**Exact mapping:** learning-rate investment \(x=\lambda\), incumbent response \(y=p_{A1}^*(x)\), B payoff \(U_B(x,y)\); marginal public-hidden difference equals \(U_{By}y'(x)\). [Code](../code/stage6_strategic_commitment_identity.py).
+
+**Status:** Published title/bibliography verified, abstract/secondary theoretical framework; full printed theorem wording not inspected. Cite in Introduction with Bulow et al.; do not claim novelty for a general strategic-commitment effect.
+
+### D02. Bulow, Geanakoplos & Klemperer (1985) — strategic complements/substitutes [A; publisher/Stanford/Yale summary]
+Jeremy I. Bulow, John D. Geanakoplos, and Paul D. Klemperer (1985), “Multimarket Oligopoly: Strategic Substitutes and Complements,” *Journal of Political Economy* 93(3), 488–511. [DOI](https://doi.org/10.1086/261312) | [Stanford GSB summary](https://www.gsb.stanford.edu/faculty-research/working-papers/multimarket-oligopoly-strategic-substitutes-complements).
+
+**Summary:** Changes in costs/strategies spill across market decisions through strategic responses. Bertrand price complementarity and dynamic investment incentives are classic.
+
+**Mapping:** our sign comes from a positive B-payoff response to a higher A price multiplied by the *negative* A price response to more observed learning efficiency, which is an instance of that general logic. The general result does not automatically imply our three-investment comparative statics and conditional consumer-welfare ranking.
+
+**Status:** Journal/publisher and Stanford/Yale abstracts; full theorem-level mapping not yet closed. High-priority Stage-6 absorption threat; do not convert access limitations into an originality claim.
+
+### D03. Kogan & El Ouardighi (2019) — autonomous plus induced learning under Bertrand pricing [A; full publisher HTML model/proposition excerpts]
+Konstantin Kogan and Fouad El Ouardighi (2019), “Autonomous and Induced Production Learning under Price and Quality Competition,” *Applied Mathematical Modelling* 67, 74–84. [DOI](https://doi.org/10.1016/j.apm.2018.10.018) | [Institution](https://cris.biu.ac.il/en/publications/autonomous-and-induced-production-learning-under-price-and-qualit-4/).
+
+**Model:** Differentiated duopoly with quality-hazard state \(\dot Y_i=\rho q_i(p_1,p_2)+\vartheta u_i\). Firms choose prices and induced-learning effort \(u_i\); autonomous learning coefficient \(\rho\) and induced coefficient \(\vartheta\) are **given**, not choices concealed/revealed as their own investment. They analyze commitment (open-loop) vs contingent (closed-loop) equilibrium controls with differences in quality-state observability, not exogenous P/H disclosure of a chosen learning-efficiency coefficient to a first-period rival.
+
+**Results:** Autonomous/induced learning have opposing effects on pricing trajectories; effort and quality respond to current state and price dynamics, even with different initial quality. The combination of sales-driven quality learning + costly quality improvement + product-price competition is therefore **already in the literature**.
+
+**Closest nonabsorption question:** Our specific ex-ante choice of \(\lambda\) multiplying *own current market share*, and information-regime-dependent A pricing in response to the **disclosure of that chosen \(\lambda\)**, are not strategy variables in their model. That is a proposed game-level difference, not proof of full originality over all related theories.
+
+**Status:** Publisher model equation and numbered proposition text inspected in web full HTML; paper PDF unavailable through the normal web opening in this session. Cite in Introduction and discuss exact differences in Stage 6 report.
+
+### Stage 6 outcome for all entries
+
+See [STAGE6_NOVELTY_REKILL_2026-11-10.md](../audits/STAGE6_NOVELTY_REKILL_2026-11-10.md) for parent-theorem mapping and evidence depths. **Do not claim generic observability-wedge, firm-profit/welfare sign reversal, learning-by-doing strategic pricing, or autonomous-plus-induced quality learning is new.** The joint pure equilibrium under specifically disclosed learning-rate investment, two quality decisions, and future experience-based quality remains a **candidate** result pending full parent-theorem absorption review.
