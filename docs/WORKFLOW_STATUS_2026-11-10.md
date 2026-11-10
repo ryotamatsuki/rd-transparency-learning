@@ -2,6 +2,9 @@
 
 **Authority:** [ryotamatsuki/research-paper-workflow](https://github.com/ryotamatsuki/research-paper-workflow) current `main`, **v2.9** (`GOVERNANCE.md` → `THEORY_PAPER_RESEARCH_PIPELINE.md` → stage templates and figure/exposition checklists).
 
+
+> **2026-11-10 Stage 4A addendum:** A narrowly scoped *independent primitive-level algebraic reconstruction* and exact rational Bernstein implementation were completed for the normalized finite-cost **pure-strategy** theorem. It certifies off-path hidden learning deviations with A's price fixed, all Stage-0 own-investment finite deviations, pure equilibrium uniqueness via a monotonic scalar equation, and all five signed outcomes over a proven equilibrium wedge. The detailed claim→attack→artifact record is [audits/STAGE4A_MINIMAL_AUDIT_2026-11-10.md](../audits/STAGE4A_MINIMAL_AUDIT_2026-11-10.md), with new [code/stage4a_independent_audit.py](../code/stage4a_independent_audit.py) and execution log. **The full project-wide Stage 4A remains UNRESOLVED**, because the general-parameter theorem and mixed-strategy PBE are not certified. This addendum supersedes the narrower pre-audit statements below where they concern the normalized pure finite-cost theorem only.
+
 **Project:** `rd-transparency-learning`. **Deliverable:** `paper/main.tex`, a **pre-certification working manuscript**, not an accepted Stage-10/Stage-13 or submission-ready paper. There has been no scientific model change in this drafting pass.
 
 ## Actual evidence status vs workflow stages
