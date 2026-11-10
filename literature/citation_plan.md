@@ -1,6 +1,6 @@
 # Related Literature citation plan / 本文での引用配置（2026-11-10）
 
-**Source of record:** [related_literature_master.md](related_literature_master.md) contains summaries, exact links and caveats for 27 publications/working papers. [paper/references.bib](../paper/references.bib) contains BibTeX keys. Do **not** interpret "24 registered" as "all 24 must appear in a short manuscript". The 2026 revision and some older theorem statements still require full-text comparison.
+**Source of record:** [related_literature_master.md](related_literature_master.md) contains summaries, exact links and caveats for 31 publications/working papers. [paper/references.bib](../paper/references.bib) contains BibTeX keys. Do **not** interpret "31 registered" as "all 31 must appear in a short manuscript". The 2026 revision and some older theorem statements still require full-text comparison.
 
 ## Minimal main-text citation set: 12–15 papers, organized by *economic channel* (not a chronological list)
 
@@ -77,3 +77,10 @@ Use BibTeX keys found in \`paper/references.bib\`. The master's 27 records inclu
 New mandatory canonical-class citations (both included in \`paper/references.bib\`): \`\citep{FudenbergTirole1984,BulowGeanakoplosKlemperer1985}\` on the standard strategic-investment reaction term and \`\citep{KoganElOuardighi2019}\` on already-known price competition with **both autonomous and induced quality learning**. These are more direct prior-art threats than generic Hotelling or institutional disclosure references. See [Stage 6 report](../audits/STAGE6_NOVELTY_REKILL_2026-11-10.md).
 
 Claim discipline: the generic envelope wedge is **absorbed as strategic-commitment theory**; the profit/welfare sign pair is documented by Baik & Kim (2020, Section 7.3); the dual form of learning/quality effort is documented by Kogan & El Ouardighi (2019). The **precise three-investment joint result with investable, disclosed learning efficiency times own current share** is at most **candidate game-level novelty**, not a verified priority claim.
+
+
+## FINAL Stage 6 editorial decision (2026-11-10)
+
+See [STAGE6_FINAL_SUBMISSION_GATE_2026-11-10.md](../audits/STAGE6_FINAL_SUBMISSION_GATE_2026-11-10.md) for the **NO-GO as currently framed**. If circulating as a research working paper, the introductory price-learning paragraph should explicitly cite [Geng et al. (2022)](https://doi.org/10.1002/nav.22057); the R&D disclosure paragraph should consider [Pae (2016)](https://www.riss.or.kr/search/detail/DetailView.do?control_no=df7621b13918c6c76aae8a972f9116fb); the innovation-direction paragraph should explicitly cite [Cabral (1994)](https://doi.org/10.1016/0167-7187(94)90006-X). [Jeitschko et al. (2018)](https://doi.org/10.1016/j.ijindorg.2018.08.003) is a related information-precision game but not the same technology.
+
+**Do not claim Stage-6 novelty PASS** just because Cabral & Riordan's (1994) sales-learning Markov-price theorem does not specify a chosen, privately observed learning rate. That distinction removes **direct model identity** but does not establish a sufficient economic contribution for publication.
