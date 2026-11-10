@@ -309,3 +309,52 @@ Konstantin Kogan and Fouad El Ouardighi (2019), “Autonomous and Induced Produc
 ### Stage 6 outcome for all entries
 
 See [STAGE6_NOVELTY_REKILL_2026-11-10.md](../audits/STAGE6_NOVELTY_REKILL_2026-11-10.md) for parent-theorem mapping and evidence depths. **Do not claim generic observability-wedge, firm-profit/welfare sign reversal, learning-by-doing strategic pricing, or autonomous-plus-induced quality learning is new.** The joint pure equilibrium under specifically disclosed learning-rate investment, two quality decisions, and future experience-based quality remains a **candidate** result pending full parent-theorem absorption review.
+
+
+## E. Closest 2026-11-10 full-Stage-6 discoveries (author/publication and evidence precision)
+
+### E01. Geng, Chen, Guo & Xiao (2022) — MUST CITE [A, E: Wiley journal abstract, PolyU institutional bibliographic metadata; thesis chapter indexed]
+Geng, Xin; Chen, Zepeng; Guo, Xiaomeng; Xiao, Guang (2022), “Duopoly price competition with quality improvement spillover,” *Naval Research Logistics* **69**(7), 958–973, DOI [10.1002/nav.22057](https://doi.org/10.1002/nav.22057). [PolyU record](https://research.polyu.edu.hk/en/publications/duopoly-price-competition-with-quality-improvement-spillover/).
+
+**Economics:** Two-period price-setting duopoly; first-period demand produces experience that improves future quality; quality creates spillovers; firms use committed or dynamic pricing. Existence/uniqueness of the pure price equilibrium and learning-related low first-period prices, plus asymmetric learning-speed extensions.
+
+**Claim already known:** current demand improves next-period quality under strategic price competition, including in an explicit **two-period** differentiated setting. We cannot claim that this timing/quality technology is unprecedented.
+
+**Our difference:** firms do **not**, in the cited published abstract/thesis account, initially invest in a learning efficiency coefficient and reveal/conceal it to determine the incumbent's first-period contingent pricing, nor do they select both \(b\) and \(\lambda\) with independent costs in our exogenous P/H comparison. **Journal full text proofs not comprehensively checked**: distinguish absence of a demonstrated exact map from absolute priority.
+
+**Where cite:** Introduction dynamic learning paragraph; direct closest-model discussion in Stage 6 comparison. The words "first two-period price/experience/quality model" are rejected.
+
+### E02. Pae (2016) — MUST CITE [A or B, E: official Korean RISS bibliographic metadata and detailed abstract]
+Pae, Suil (2016), “Demand-Enhancing Investment, Voluntary Disclosure, and Knowledge Spillovers,” *Korean Accounting Review* **41**(3), 61–91. [Official scholarly catalog](https://www.riss.or.kr/search/detail/DetailView.do?control_no=df7621b13918c6c76aae8a972f9116fb).
+
+**Economics:** A firm invests in demand-enhancing R&D; publicly observable/private investment alters subsequent differentiated duopoly pricing; voluntary disclosure communicates privately realized demand effects and entails technological spillovers. The paper reports greater investment in the private than observable regime and a link between observable investment and price incentives.
+
+**Claim already known:** investment visibility, prices, and disclosure jointly affect demand-enhancing R&D; privacy raising R&D is not newly established by our study.
+
+**Our difference:** this paper models demand-enhancement information/knowledge spillovers, not an invested \( \lambda\) multiplying own period-one customer experience and persistent quality R&D decisions \((s,b)\) across two periods.
+
+**Limit:** Only an abstract was available; **cannot certify complete theorem-level nonabsorption** in Pae's paper without its full text. This residual uncertainty is a citation/evidence limitation rather than a reason to ignore this very close predecessor.
+
+### E03. Cabral (1994) — MUST CITE IF R&D MIX IS HEADLINE [A, F: author's full paper visually/textually inspected through Proposition 1]
+Cabral, Luís M. B. (1994), “Bias in market R&D portfolios,” *International Journal of Industrial Organization* **12**(4), 533–547, DOI [10.1016/0167-7187(94)90006-X](https://doi.org/10.1016/0167-7187(94)90006-X). [Author full PDF](https://pages.stern.nyu.edu/~lcabral/publications/IJIO%201994.pdf).
+
+**Economics:** Two firms divide a **fixed** total R&D budget between safer and riskier product innovation projects. Under competition, private and social optimal portfolios can diverge, and the bias depends on product-market competition parameters. Proposition 1 gives a necessary/sufficient marginal welfare condition at a symmetric interior solution.
+
+**Claim already known:** the composition/direction of R&D and social bias are classic, not new from the current paper.
+
+**Our difference:** our independent quadratic research costs **do not impose a fixed portfolio budget**, and \(\lambda D_1\) is a market-share-driven intertemporal quality technology rather than risky/safe discovery probabilities.
+
+**Evidence:** actual author PDF, pp.533–538, Proposition 1 and Section 2 model inspected; no claim that every appendix has been audited.
+
+### E04. Jeitschko, Liu & Wang (2018) — OPTIONAL [B, E: journal full HTML and institutional bibliographic data]
+Thomas D. Jeitschko, Ting Liu and Tao Wang (2018), “Information Acquisition, Signaling and Learning in Duopoly,” *International Journal of Industrial Organization* **61**, 155–191, DOI [10.1016/j.ijindorg.2018.08.003](https://doi.org/10.1016/j.ijindorg.2018.08.003).
+
+**Economics:** Two-period differentiated Bertrand competition. Firms endogenously choose **precision of private production-cost information** and subsequently signal via prices. Information sharing changes acquisition incentives and welfare. “Learning” here concerns cost information, **not technological quality improvement from own past sales**.
+
+**Overlap:** costly privately known investment, repeated differentiated price interaction, informational effects of pricing. **Not a direct tech-learning parent theorem.** Cite only if conceptual differentiation is needed; do not overload Introduction.
+
+## Final Stage-6 record and evidence boundary
+
+The original Cabral & Riordan (1994) **Econometrica** article was found on the author's site and Theorem 2.1, 2.2, 3.1 and the sales-state learning primitives were examined. No initial decision about investing in the **learning curve's conversion coefficient** or P/H technology observability occurs in that model. Bulow et al. (1985) abstracts and canonical strategic response logic establish that our marginal observability wedge is not a new general theorem, but their full 1985 JPE paper was access-restricted. Geng et al. (2022) and Pae (2016) are material **new** threats to the incremental contribution, despite not establishing direct identity with the whole game.
+
+**Recommendation / scope:** [Stage 6 submission gate](../audits/STAGE6_FINAL_SUBMISSION_GATE_2026-11-10.md) concludes **NO-GO for immediate mid-tier full-theory paper submission in current form**, not “the whole game was already published.” Research-note potential remains conditional. File-level bibliography is comprehensive as of this search window, not guaranteed universally exhaustive.
