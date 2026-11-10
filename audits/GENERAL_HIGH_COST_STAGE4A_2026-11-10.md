@@ -154,6 +154,14 @@ At `lambda=0`, the equilibrium is `p_A=t+d/3>0`, `p_B=t-d/3>0`, with shares boun
 
 For the dynamic price game, each interior own-price second derivative equals `-1/t + delta*lambda^2/(36*t^3)`; the first-order equation has determinant proportional to `27*t^2-delta*lambda^2`. Both properties persist for small `lambda`. Any price-equilibrium sequence as `lambda -> 0` has a bounded subsequence: when a firm earns zero current demand, its rival's price must be low enough to prevent a profitable zero/positive-price undercut; the fully served firm cannot face an indefinitely large no-demand rival price without raising its own price. Interior equilibria have prices bounded directly by their FOCs. By compactness and upper hemicontinuity, a sequence of additional corner equilibria for `lambda -> 0` would converge to a forbidden corner equilibrium at `lambda=0`. Hence **one common small cap** exists on compact J under which there is a unique globally valid interior pricing equilibrium. This also covers the last-stage game for all realized shares if `bar lambda<min(d_min, 3t-d_max)`.
 
+For additional boundary clarity, at a putative corner with **zero entrant demand**, B could enter profitably at a small positive price whenever A's price exceeded `d-t`. Hence a corner Nash must have `p_A <= d-t`; but at the sharing boundary the incumbent's derivative from increasing its price is at least
+
+\[
+\frac{3t-d_{\max}}{2t}-\frac{\delta\bar\lambda(3t+d_{\max})}{18t^2}>0
+\]
+
+provided `bar lambda < 9t(3t-d_max)/(delta(3t+d_max))`. The incumbent would therefore raise its price; the corner cannot be an equilibrium. The opposite corner, **zero incumbent demand**, fails because A can charge a small positive price to enter and simultaneously reduce B's learning. At a boundary price `p_A=0`, A's one-sided payoff derivative is uniformly positive for sufficiently small learning cap; at `p_B=0` with interior demand, A's best response converges uniformly to `(t+d)/2` as learning vanishes and B's own price derivative converges to `(3t-d)/(4t)>0`. Thus all nonnegative-price and zero-share boundaries are excluded before applying the unique interior FOC system.
+
 **Under hidden Stage-1 deviations**, the incumbent's price is **fixed at its on-belief equilibrium price z**, while B can reoptimize its own first-period price. From B's primitive price FOC, its optimized period-1 share is
 
 \[
