@@ -40,6 +40,8 @@ At benchmark (k_λ=0.3), the hidden equilibrium has (sapprox0.252492,;bapprox0.0
 
 - [docs/model.md](docs/model.md): definitions, timeline, price subgames, information structure.
 - [docs/propositions.md](docs/propositions.md): claim-by-claim proof status, assumptions, limitations.
+- [audits/STAGE4A_MINIMAL_AUDIT_2026-11-10.md](audits/STAGE4A_MINIMAL_AUDIT_2026-11-10.md): scoped independent global candidate-deviation and pure-equilibrium uniqueness audit (not general theorem or mixed PBE certification).
+- [code/stage4a_independent_audit.py](code/stage4a_independent_audit.py): separately reconstructed price/learning/Stage-0 exact algebra, multistart numerical attacks.
 - [docs/research_history.md](docs/research_history.md): research decisions and developments through 2026-11-10.
 - [results/benchmark.md](results/benchmark.md): values, inequalities, reproducibility cautions.
 - [literature/novelty_matrix.md](literature/novelty_matrix.md): closest prior work and non-claims.
