@@ -66,7 +66,7 @@ A unit mass of consumers is uniformly distributed on the interval $[0,1]$. Firm 
 \end{align}
 where $t>0$ and the common valuation $v$ is sufficiently large for full coverage. Consumers optimize current-period utility and do not internalize the effect of their purchase on future learning. Marginal production costs are zero. In the relevant parameter domain, both firms make positive sales and post strictly positive prices.
 
-At stage 0, A chooses persistent quality R\&D $s\ge0$, while B simultaneously chooses immediately effective quality R\&D $b\ge0$. These investments become observable before the next stage. They affect both periods' quality, and their cost functions are $k_s s^2/2$ and $k_b b^2/2$, respectively. At stage 1, B chooses learning capability $\lambda\ge0$ at cost $\kl\lambda^2/2$. The relative quality gap before learning is
+At stage 0, A chooses persistent quality R\&D $s\in[0,\bar s]$, while B simultaneously chooses immediately effective quality R\&D $b\in[0,\bar b]$. These investments become observable before the next stage. They affect both periods' quality, and their cost functions are $k_s s^2/2$ and $k_b b^2/2$, respectively. At stage 1, B chooses learning capability $\lambda\in[0,\bar\lambda]$ at cost $\kl\lambda^2/2$. These upper bounds are \emph{primitive feasible-investment restrictions}; the theorems do not claim equivalence to an unbounded-investment game. The relative quality gap before learning is
 \begin{equation}
  d=d_0+s-b,\qquad d_0>0. \label{eq:d}
 \end{equation}
@@ -170,12 +170,12 @@ The marginal signs alone do not establish global investment levels. Nevertheless
 \begin{equation}
 h(d)=\frac{\delta(3t-d)^2}{54t^2}>0. \label{eq:h}
 \end{equation}
-Under compact, admissible action sets with smoothly varying unique continuation equilibria, the public optimal investment is zero for sufficiently small $\eta$, while the hidden investment is
+Under the explicit compact, uniformly interior action-domain conditions of Section~\ref{sec:results}, the public optimal investment is zero for sufficiently small $\eta$, while the unique hidden investment is
 \begin{equation}
  \lambda^{\HH}(d)=\eta h(d)+O(\eta^2),\qquad
  \lambda^{\PP}(d)=0. \label{eq:lambdahigh}
 \end{equation}
-The argument compares global payoffs after bounding investments away from zero by the quadratic cost, and then uses the opposite local derivatives in Proposition~\ref{prop:incentives}. Appendix~\ref{app:investment} makes the regularity and scope qualifications explicit.
+The proof does not infer a global optimum from a derivative at zero. It establishes strict monotonicity of public learning payoffs on the feasible learning interval, strict concavity of hidden learning payoffs against A's fixed price, and global uniqueness of the ensuing quality-investment equilibrium. Appendix~\ref{app:investment} gives the argument.
 
 \section{The direction of R\&D and welfare}\label{sec:results}
 
@@ -199,16 +199,22 @@ Assume
  \Delta=k_sk_b-c(k_s+k_b)>0,\quad
  0<d_*<3t, \label{eq:stability}
 \end{equation}
-and the other interiority/global-continuation regularity conditions stated in Appendix~\ref{app:investment}. These conditions hold at the normalized baseline used below.
+and impose the following additional \emph{global-domain} assumptions:
+\begin{equation}
+ 0<d_0-\bar b<d_0+\bar s<3t,\qquad
+ 0<s_*<\bar s,\quad 0<b_*<\bar b,
+ \label{eq:gapcap}
+\end{equation}
+where $s_*=c(3t+d_*)/k_s$ and $b_*=c(3t-d_*)/k_b$. The learning cap $\bar\lambda>0$ is chosen sufficiently small that every feasible quality-gap history admits the unique strictly interior public price equilibrium, the hidden fixed-A-price deviation response, and the second-period price equilibrium. Existence of such a positive cap follows from the uniform interior margin at $\lambda=0$ on the compact quality-gap interval; see Appendix~\ref{app:investment}. This restriction is substantive: the algebraic stability conditions \eqref{eq:stability} alone do \emph{not} rule out an unbounded investment deviation into a monopoly-price region. The high-cost theorem below concerns the bounded game defined in Section~\ref{sec:model}; it does not assert global equilibrium for unrestricted quality investments.
 
 \begin{proposition}[A change in the direction of R\&D]\label{prop:composition}
-Fix a model with \eqref{eq:stability} and a differentiable, uniquely selected admissible equilibrium continuation around $\eta=0$. For all sufficiently small $\eta>0$,
+Fix a model satisfying \eqref{eq:stability}--\eqref{eq:gapcap} with a sufficiently small feasible learning cap as just specified. Then there exists $\bar\eta>0$ such that for every $\eta\in(0,\bar\eta)$, each information regime has a unique \emph{pure-strategy} equilibrium on the specified feasible sets, all investment deviations are globally unprofitable, and
 \begin{equation}
  \lambda^{\HH}>\lambda^{\PP}=0,\qquad
  b^{\HH}<b^{\PP},\qquad
  s^{\HH}>s^{\PP}. \label{eq:composition}
 \end{equation}
-The strict changes in $s$ and $b$ are of order $\eta$.
+The strict changes in $s$ and $b$ are of order $\eta$. Uniqueness is asserted among pure-strategy equilibria of the bounded game, not among all mixed-strategy PBE or all equilibria of an unbounded game.
 \end{proposition}
 
 The intuition is a shift in the \emph{direction} rather than necessarily the total amount of R\&D. Concealment makes learning investment profitable at the margin, so B can rely relatively more on future customer-based improvements and less on improving its quality immediately. A, facing a stronger future entrant, also increases its persistent quality investment in the equilibrium characterized here. Conversely, under disclosure B chooses more immediate quality investment and abandons learning investment in the high-cost region, while A chooses less persistent quality investment. These are independent quadratic research expenditures; no fixed total research budget is assumed. Moreover, A's persistent-quality investment response should not be conflated with its current-price defense.
@@ -228,7 +234,7 @@ Both derivatives $u_A'$ and $u_B'$ are positive for $0<d_*<3t$. Appendix~\ref{ap
 What happens to profits and welfare is subtler. Greater hidden learning intensifies product-market competition and may reduce firms' profits; consumers may value the accompanying higher future quality and stronger competition. However, the incumbent also benefits under concealment when B cuts its immediate quality investment. It is therefore necessary to specify when that offsetting effect is sufficiently small.
 
 \begin{theorem}[Privately preferred disclosure and socially preferred concealment]\label{thm:main}
-Maintain the assumptions of Proposition~\ref{prop:composition} and suppose, in addition, that
+Maintain the \emph{bounded-domain, globally certified pure-equilibrium} assumptions of Proposition~\ref{prop:composition} and suppose, in addition, that
 \begin{equation}
 t\le d_*<3t,\qquad
 -B_1<
@@ -241,7 +247,7 @@ For sufficiently large $\kl$ (equivalently, sufficiently small positive $\eta$),
  \Pi_B^{\PP}>\Pi_B^{\HH},\qquad
  W^{\HH}>W^{\PP}. \label{eq:profitwelfare}
 \end{equation}
-The stated sufficient region is nonempty. The theorem is conditional on an admissible, uniquely selected continuation; no claim is made about arbitrary parameter values or unverified alternative equilibria.
+The sufficient parameter/cap region is nonempty and includes open neighborhoods of non-normalized parameter vectors. The assertion is about the unique pure-strategy equilibrium of the \emph{explicitly bounded} game and does not extend to unbounded investment sets or untested mixed-strategy PBE.
 \end{theorem}
 
 The restrictions have economic meaning. When $t\le d_*<3t$, the entrant initially has positive but no more than one-third market share. This makes a larger learning capability particularly relevant to a weaker competitor's attempt to catch up. The second restriction says that the entrant's reduction of immediate quality investment under concealment is not so large that it outweighs the incumbent's disadvantage from facing more learning-based competition. Firm B has an unambiguously negative hidden-profit change to first order; the additional restriction is needed for A. The welfare result follows because the value of enhanced learning and the induced quality changes dominates its real R\&D cost under these sufficient conditions.
@@ -260,7 +266,7 @@ The general propositions characterize an economic mechanism in a high-learning-c
 
 \subsection{A finite-cost realization}
 
-Normalize $t=\delta=d_0=1$ and $k_s=k_b=4$, and restrict the strategy sets to $s,b\in[0,\frac12]$ and $\lambda\in[0,1]$. The algebraic certificate in the accompanying replication code supports a \emph{sufficient} threshold
+For a \emph{separate}, more permissive finite-cost case, normalize $t=\delta=d_0=1$, $k_s=k_b=4$, and choose $\bar s=\bar b=\frac12$, $\bar\lambda=1$. This larger learning cap has its own exact price/globality checks and is not inferred from the small-cap general asymptotic theorem. The algebraic certificate in the accompanying replication code supports a \emph{sufficient} threshold
 \begin{equation}
  \kl>\frac{4343}{32448}\simeq 0.133845 \label{eq:threshold}
 \end{equation}
@@ -338,12 +344,12 @@ The total derivative along the public price-equilibrium path gives equation~\eqr
 
 \section{High-cost equilibrium expansion}\label{app:investment}
 
-Write $\eta=\kl^{-1}$ and fix a compact action domain on which all relevant price continuations are feasible, unique, smooth, and their gross payoffs bounded. For $\eta$ sufficiently close to zero, the quadratic $\lambda^2/(2\eta)$ makes positive investment bounded away from zero strictly unprofitable. At $\lambda=0$, the public right derivative of B's gross payoff is negative by Proposition~\ref{prop:incentives}, and the hidden derivative is positive. Thus for high cost the public optimum is zero and the hidden hidden-deviation optimality condition yields
+Put $\eta=\kl^{-1}$ and let $J=[d_0-\bar b,d_0+\bar s]\subset(0,3t)$. The explicit conditions \eqref{eq:gapcap} and a sufficiently small positive learning cap secure the same unique strictly interior price continuation at every feasible stage-0 history. The public right derivative of B's gross payoff is strictly negative at $\lambda=0$ uniformly on the compact interval $J$. Choosing the learning cap small enough makes this derivative negative throughout $J\times[0,\bar\lambda]$, hence the \emph{global} public Stage-1 optimum is zero. For hidden Stage-1 deviations the incumbent's price is held fixed; the strictly concave global investment problem described below gives
 \[
 \lambda^{\HH}=\eta h(d)+O(\eta^2),\qquad
 h(d)=\frac{\delta(3t-d)^2}{54t^2}.
 \]
-The statement about global optimality requires the above boundedness, uniform local derivative and second-order conditions, rather than only a first-order condition at zero.
+The positive hidden optimum is unique for every feasible $d$. The global claim relies on the explicit action bounds, uniform price admissibility, and the full-interval concavity and monotonicity results below, not on a local first-order condition alone.
 
 Define
 \begin{align}
