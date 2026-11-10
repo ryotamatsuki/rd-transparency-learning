@@ -47,9 +47,10 @@ At benchmark (k_λ=0.3), the hidden equilibrium has (sapprox0.252492,;bapprox0.0
 - [code/stage4a_independent_audit.py](code/stage4a_independent_audit.py): separately reconstructed price/learning/Stage-0 exact algebra, multistart numerical attacks.
 - [docs/research_history.md](docs/research_history.md): research decisions and developments through 2026-11-10.
 - [results/benchmark.md](results/benchmark.md): values, inequalities, reproducibility cautions.
+- [audits/STAGE6_FINAL_SUBMISSION_GATE_2026-11-10.md](audits/STAGE6_FINAL_SUBMISSION_GATE_2026-11-10.md): **final closest-predecessor mapping; NO-GO on immediate mid-tier full-paper submission**.
 - [audits/STAGE6_NOVELTY_REKILL_2026-11-10.md](audits/STAGE6_NOVELTY_REKILL_2026-11-10.md): Stage 6 theorem-absorption audit, source depth, conditional novelty verdict.
 - [literature/novelty_matrix.md](literature/novelty_matrix.md): closest prior work and non-claims.
-- [literature/related_literature_master.md](literature/related_literature_master.md): comprehensive 27-paper register with bibliography, Japanese-context summaries, distinctions and evidence levels.
+- [literature/related_literature_master.md](literature/related_literature_master.md): comprehensive 31-paper register with bibliography, Japanese-context summaries, distinctions and evidence levels.
 - [literature/citation_plan.md](literature/citation_plan.md): prioritized references, section placement and concise English related-literature paragraph plan.
 - [docs/roadmap.md](docs/roadmap.md): manuscript and referee-readiness checklist.
 - [docs/WORKFLOW_STATUS_2026-11-10.md](docs/WORKFLOW_STATUS_2026-11-10.md): v2.9 research workflow gate-by-gate status.
