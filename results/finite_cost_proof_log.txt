@@ -1,0 +1,42 @@
+CERTIFIED P(d=9/8+ell/8,ell) < 0                   min numerator=3.011e+07; denominator=512
+CERTIFIED P(d=9/8+ell/5,ell) > 0                   min numerator=1.004e+10; denominator=6.4e+04
+CERTIFIED P_d > 0                                  min numerator=7.186e+06; denominator=1
+CERTIFIED -P_ell > 0                               min numerator=1.225e+06; denominator=1
+CERTIFIED P denominator > 0                        min numerator=2.154e+06; denominator=1
+CERTIFIED s_H > s_P                                min numerator=5.144e+05; denominator=8.614e+06
+CERTIFIED b_H < b_P                                min numerator=1.554e+05; denominator=8.614e+06
+CERTIFIED profit A_P > A_H                         min numerator=5.289e+12; denominator=3.71e+13
+CERTIFIED profit B_P > B_H                         min numerator=2.341e+12; denominator=3.71e+13
+CERTIFIED W_H > W_P                                min numerator=2.165e+12; denominator=3.71e+13
+CERTIFIED B first-period share lower under secrecy min numerator=12.75; denominator=428
+CERTIFIED B second-period share higher under secrecy min numerator=2.7; denominator=428
+CERTIFIED B second-period relative quality higher  min numerator=8.1; denominator=214
+CERTIFIED first-period market surplus higher under secrecy min numerator=2.177e+08; denominator=3.687e+09
+CERTIFIED second-period market surplus higher under secrecy min numerator=2.561e+08; denominator=3.687e+09
+CERTIFIED extended P lower boundary < 0            min numerator=3.614e+07; denominator=512
+CERTIFIED extended P upper boundary > 0            min numerator=1.029e+10; denominator=6.4e+04
+CERTIFIED extended P_d > 0                         min numerator=6.855e+06; denominator=1
+CERTIFIED extended -P_ell > 0                      min numerator=1.225e+06; denominator=1
+CERTIFIED extended s_H > s_P                       min numerator=6.172e+05; denominator=8.288e+06
+CERTIFIED extended b_H < b_P                       min numerator=1.824e+05; denominator=8.288e+06
+CERTIFIED extended profit A_P > A_H                min numerator=6.012e+12; denominator=3.435e+13
+CERTIFIED extended profit B_P > B_H                min numerator=2.615e+12; denominator=3.435e+13
+CERTIFIED extended W_H > W_P                       min numerator=2.401e+12; denominator=3.435e+13
+CERTIFIED algebraic equilibrium-branch threshold k_lambda >= 1/10
+CERTIFIED R_d < 0                                  min numerator=243; denominator=4056
+CERTIFIED R_ell < 0                                min numerator=4490; denominator=1.055e+05
+CERTIFIED 0 < T_A prime                            min numerator=1.594e+06; denominator=1.401e+06
+CERTIFIED T_A prime < 2                            min numerator=6.103e+05; denominator=1.401e+06
+CERTIFIED -2 < T_B prime                           min numerator=8.343e+05; denominator=4.669e+05
+CERTIFIED T_B prime < 0                            min numerator=9.951e+04; denominator=4.669e+05
+CERTIFIED T_A second < 2                           min numerator=2.542e+12; denominator=1.086e+12
+CERTIFIED T_B second < 2                           min numerator=7.082e+11; denominator=3.62e+11
+CERTIFIED public B: V_B(d,0) > V_B(d,ell)          min numerator=721.2; denominator=4.867e+04
+CERTIFIED price A > 0.8                            min numerator=23.5; denominator=780
+CERTIFIED price A < 1.6                            min numerator=81; denominator=780
+CERTIFIED hidden B: d^2 V_dev/dell^2 < 0.1         min numerator=6201; denominator=4.288e+05
+EXACT THRESHOLD k_lambda > 4343/32448 = 0.1338449211045365
+PUBLIC {'s': '11/48', 'b': '5/48', 'profit_A': '2057/1152', 'profit_B': '425/1152', 'welfare': '-1085/1152'}
+HIDDEN k=0.3 {'d': np.float64(1.155746136712181), 'ell': np.float64(0.21110174364356293), 's': 0.2524920153987139, 'b': 0.09674587868653284, 'profit_A': 1.719006533954646, 'profit_B': 0.34193617744824495, 'welfare': -0.9142775977669557}
+RESULTANT FACTOR DEGREES [(1, 2), (2, 6), (13, 1)]
+All exact-rational certificates succeeded.
