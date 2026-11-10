@@ -264,7 +264,7 @@ Normalize $t=\delta=d_0=1$ and $k_s=k_b=4$, and restrict the strategy sets to $s
 \begin{equation}
  \kl>\frac{4343}{32448}\simeq 0.133845 \label{eq:threshold}
 \end{equation}
-for unique admissible equilibria under each regime with the same investment, profit, and welfare comparisons. The computer-assisted proof uses exact rational Bernstein-coefficient bounds for a cubic equilibrium condition in the quality gap and the relevant payoff signs. Unlike the general high-cost result, this is a \emph{separately specialized finite-domain certificate}, not a simple parameter substitution into Theorem~\ref{thm:main}. A branch-level sign check can be extended to $\kl\ge0.1$, but global equilibrium uniqueness is not established over that entire wider region. The precise scope of the certificate and remaining independent-verification obligations are in Appendix~\ref{app:finite}.
+for a unique \emph{pure-strategy} equilibrium under each regime within the specified compact investment domains, together with the stated investment, profit, and welfare comparisons. The computer-assisted proof uses exact rational Bernstein-coefficient bounds for a cubic equilibrium condition in the quality gap and the relevant payoff signs. Unlike the general high-cost result, this is a \emph{separately specialized finite-domain certificate}, not a simple parameter substitution into Theorem~\ref{thm:main}. A branch-level sign check can be extended to $\kl\ge0.1$, but global equilibrium uniqueness is not established over that entire wider region. The precise scope of the certificate and remaining independent-verification obligations are in Appendix~\ref{app:finite}.
 
 \begin{table}[t]
 \centering
@@ -450,7 +450,42 @@ After clearing denominators, the last equation reduces to a cubic polynomial in 
 \]
 and the relevant R\&D/profit/welfare signs using rational Bernstein coefficients on a unit square. It also verifies derivative bounds underlying the sufficient global-equilibrium threshold~\eqref{eq:threshold} in the stated compact domain. The program separately checks a larger \emph{equilibrium-branch} sign region corresponding to $\kl\ge0.1$, without establishing global equilibrium uniqueness on the entire expanded domain.
 
-\textbf{Certification disclosure.} These computations have been reproduced, but the exhaustive off-path continuation audit, independent clean-room equilibrium reconstruction, and proof-assistant applicability/closure required by the project's workflow remain outstanding. Until then, finite-cost uniqueness and sign claims are \emph{computer-assisted research results}, not independently certified submission claims. The script and its stdout log, plus the source repository, preserve the reproducibility trail. Neither numerical root finding alone nor positivity on a selected branch would justify an unrestricted SPNE assertion.
+
+\paragraph{Finite deviations and alternative equilibria.}
+A separately implemented, independent algebraic check reconstructs price and
+learning payoffs from primitive demand. It certifies the on-path
+conditions $0<D_1<1$, $4/5<p_{A,1}<8/5$ and $p_{B,1}>0$ over
+$1/2\le d\le3/2$, $0\le\lambda\le1$, including strictly
+interior prices after hidden learning deviations with A's price fixed.
+The price objectives are strictly concave within the interior demand
+region; direct marginal arguments exclude a profitable price deviation
+to a zero- or full-share corner. At Stage 1 the public learning decision
+is globally zero, whereas the hidden reoptimized gross learning payoff
+satisfies $G_{\lambda\lambda}<1/10$, so net learning payoff is strictly
+concave for every cost in \eqref{eq:threshold}. The self-consistent
+hidden investment $\lambda(d;\kl)$ is uniquely interior.
+
+At Stage 0, writing $T_i$ for the continuation profits before own
+quality costs, exact rational bounds give
+$0<T_A'<2$, $-2<T_B'<0$, $T_A''<2$ and $T_B''<2$
+along each fixed-$\kl$ continuation. Both firms' own-action
+payoffs are then strictly concave on their whole strategy intervals.
+The scalar condition
+\[
+H_{\kl}(d)=d-1-\tfrac14\big[T_A'(d)+T_B'(d)\big]=0
+\]
+satisfies $H_{\kl}'(d)>0$ with opposite endpoint signs on
+$[1/2,3/2]$. Hence there is exactly one \emph{pure-strategy}
+Stage-0 equilibrium in the stated domain, excluding other pure
+equilibria rather than merely testing the candidate's local FOCs.
+A second certificate establishes monotonicity of the implicit
+two-variable equilibrium equation on the displayed wedge and
+its signed payoff comparisons there. The independent construction and
+the exact polynomial bounds are archived in
+\texttt{audits/STAGE4A\_MINIMAL\_AUDIT\_2026-11-10.md}
+and \texttt{code/stage4a\_independent\_audit.py}.
+
+\textbf{Certification disclosure.} The independent Stage-4A-style reconstruction and exact rational certificates support the \emph{normalized compact-domain pure-strategy} theorem, but do not constitute an independent human/proof-assistant proof or exclude mixed-strategy perfect Bayesian equilibria. The broader general-parameter theorem remains outside this audit and the project's full Stage 4A and later workflow gates are not yet closed. The certificate and script preserve the verification trail; no unrestricted SPNE/PBE claim follows.
 
 \section{A feedback-removal diagnostic}\label{app:ablation}
 If the alternative technology \eqref{eq:nofeedback} replaces \eqref{eq:technology}, first-period prices no longer enter any future operating payoff. The first-period price subgame is static and independent of $\lambda$, while the second-period price equilibrium depends only on the realized second-period quality difference. At Stage 1 the entrant's objective, conditional on $d$, is thus the same function of $\lambda$ in both information regimes. When these continuation objectives and the earlier R\&D equilibrium are uniquely optimized, public and hidden choices coincide. This argument concerns removal of \emph{market-share feedback}; it does not rule out disclosure effects in other games with private technical types, signaling, commitment or direct dynamic cost effects.
