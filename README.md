@@ -46,11 +46,16 @@ At benchmark (k_λ=0.3), the hidden equilibrium has (sapprox0.252492,;bapprox0.0
 - [literature/related_literature_master.md](literature/related_literature_master.md): comprehensive 24-paper register with bibliography, Japanese-context summaries, distinctions and evidence levels.
 - [literature/citation_plan.md](literature/citation_plan.md): prioritized references, section placement and concise English related-literature paragraph plan.
 - [docs/roadmap.md](docs/roadmap.md): manuscript and referee-readiness checklist.
+- [docs/WORKFLOW_STATUS_2026-11-10.md](docs/WORKFLOW_STATUS_2026-11-10.md): v2.9 research workflow gate-by-gate status.
+- [docs/EXPOSITION_ARCHITECTURE_2026-11-10.md](docs/EXPOSITION_ARCHITECTURE_2026-11-10.md): section and exhibit necessity map.
+- [docs/PDF_QA_2026-11-10.md](docs/PDF_QA_2026-11-10.md): 13-page reproducible PDF build and page-level QA.
+- [docs/AUTHOR_AND_AI_PROVENANCE_2026-11-10.md](docs/AUTHOR_AND_AI_PROVENANCE_2026-11-10.md): research assistance and verification-role ledger.
 - [docs/manuscript_outline.md](docs/manuscript_outline.md): **recommended lean six-section submission structure**, numbered-results budget and model-paper examples.
 - [docs/theorem_architecture.md](docs/theorem_architecture.md): proposed lemma/proposition/theorem/corollary order, economic intuitions, proof dependencies, and caveats.
 - [code/finite_cost_proof.py](code/finite_cost_proof.py): original symbolic proof/certification script.
 - [results/finite_cost_proof_log.txt](results/finite_cost_proof_log.txt): original run log.
-- [paper/main.tex](paper/main.tex): English manuscript skeleton.
+- [paper/main.tex](paper/main.tex): **complete six-section English working manuscript v0.1**, with analytical appendices (not yet submission-certified).
+- [paper/BUILD_AND_REVIEW.md](paper/BUILD_AND_REVIEW.md): PDF compilation/review instructions and source identity.
 
 ## Reproduce
 
