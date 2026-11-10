@@ -49,7 +49,7 @@ A firm developing the capacity to learn from its customers may become a more for
 
 The question of whether R\&D investments should be observable has an established theoretical literature. \citet{Sengupta2016} shows that secrecy can strengthen research incentives and welfare; \citet{BaikKim2020} compares observable with unobservable R\&D and, in its differentiated Bertrand extension, finds parameters under which observability raises firms' profits yet lowers social welfare. \citet{JiangXiong2025} identifies strategic effects of disclosing endogenously chosen cost information. Accordingly, a reversal between firms' private preferences and social welfare cannot, by itself, distinguish a new model. The object of our analysis is instead the \emph{experience-dependent return} to the disclosed investment: a firm's price today determines how much of an entrant's chosen learning capability can be used tomorrow.
 
-The importance of current sales for future competitiveness is familiar from learning-curve and dynamic price-competition models, including \citet{Spence1981}, \citet{CabralRiordan1994}, and \citet{BesankoDoraszelskiKryukov2014,BesankoDoraszelskiKryukov2019}. Other work recognizes that R\&D can build learning capability \citep{CohenLevinthal1989,CohenLevinthal1994}, that competition redirects research portfolios \citep{LinZhou2013}, and that information disclosure may skew innovation toward near-term results \citep{HuangEtAl2023,ChenLiangPetrov2024}. Research and direct development are also jointly chosen in innovation-race models with concealment \citep{KimPoggi2026}. We do not claim priority over these constituent effects. Rather, we ask whether a parsimonious product-market game can tie them together without patents, spillovers, investor short-termism, or a research race.
+The importance of current sales for future competitiveness is familiar from learning-curve and dynamic price-competition models \citep{Spence1981,CabralRiordan1994,BesankoDoraszelskiKryukov2014,BesankoDoraszelskiKryukov2019}. The strategic value of an observable investment through its effect on a rival's subsequent response is also classical \citep{FudenbergTirole1984,BulowGeanakoplosKlemperer1985}. Our observability wedge is an application of that general strategic-commitment logic, not a new universal principle. Research may build a firm's ability to learn \citep{CohenLevinthal1989,CohenLevinthal1994}, while competition changes R\&D portfolios \citep{LinZhou2013}. Especially close, \citet{KoganElOuardighi2019} endogenizes induced quality-learning efforts alongside output-driven autonomous learning and differentiated price competition. However, its comparison of commitment and contingent quality-control policies is not a public-versus-hidden choice of an \emph{invested coefficient} multiplying current market share. Short-horizon innovation under disclosure is also studied through financial reporting \citep{HuangEtAl2023,ChenLiangPetrov2024}; \citet{KimPoggi2026} studies the choice between direct development and research in a patent and innovation-race setting. We do not claim priority over any of these component effects. The testable departure is their particular joint equilibrium implication when market-share-mediated learning capability is itself concealed or disclosed.
 
 We use a two-period Hotelling--Bertrand duopoly with firms at fixed opposite endpoints. The incumbent chooses persistent quality investment, while the entrant chooses an immediately effective quality investment and a learning-efficiency investment. Each first-period customer obtained by the entrant contributes to its second-period relative quality in proportion to the chosen learning efficiency. We compare two exogenously given information regimes: in the public regime, the incumbent can observe learning investment before setting its first-period price; in the hidden regime, it cannot condition that price on an unobserved unilateral change. Importantly, the incumbent still correctly anticipates the entrant's \emph{equilibrium} learning investment under concealment.
 
@@ -159,7 +159,7 @@ The public-minus-hidden wedge has the strict sign
 \end{equation}
 \end{proposition}
 
-The mechanism is a \emph{conditional price threat}. In the public regime,
+The mechanism is a \emph{conditional price threat}, a specific instance of the familiar strategic-investment response emphasized by \citet{FudenbergTirole1984,BulowGeanakoplosKlemperer1985}. In the public regime,
 \begin{equation}
 \left.\frac{\partial p_{A,1}^*}{\partial\lambda}\right|_0
 =-\frac{\delta(9t+d)}{27t}<0.\label{eq:reaction}
@@ -317,7 +317,7 @@ Several restrictions delimit the result. First, information observability is exo
 
 Information about a firm's future learning capability can change the value of that capability precisely because market experience is determined competitively. In a two-period differentiated Bertrand game, the incumbent's conditional current-price defense can discourage an entrant from investing in the ability to learn. Allowing the firms to adjust immediate and persistent quality R\&D then redirects the innovation mix. Under explicit sufficient conditions, disclosure raises both firms' equilibrium profits even though concealment yields higher social welfare and, in the finite-cost example, a stronger future entrant.
 
-The broader lesson is not that R\&D disclosure is universally undesirable. It is that a disclosure institution can shape the direction of technological change through product-market strategic responses, even in the absence of patents, information spillovers or capital-market short-termism. The exact boundary of this result outside the stated admissible and certified domains, and its independence from all related general theorems, remain subjects of the ongoing mathematical and literature audits.
+The broader lesson is not that R\&D disclosure is universally undesirable. Rather, an information regime can redirect innovation through the product-market response to a firm's chosen efficiency of experience-based learning. This is a specific interaction of familiar building blocks, not a claimed new general observability theorem. The exact boundary of this result outside the stated admissible and certified domains, and its independence from all related general theorems, remain subjects of the ongoing mathematical and literature audits.
 
 \appendix
 \section{Price subgames and the observability wedge}\label{app:prices}
@@ -340,7 +340,16 @@ V_A(d,\lambda)&=p_{A,1}^*(1-D_1^*)+
 V_B(d,\lambda)&=p_{B,1}^*D_1^*+
  \delta\frac{(3t+q)^2}{18t}.
 \end{align*}
-The total derivative along the public price-equilibrium path gives equation~\eqref{eq:publicder}. For hidden $\lambda$, hold A's price at the price chosen under its equilibrium belief, while reoptimizing B's price conditional on B's true $\lambda$. At $\lambda=0$, the envelope theorem gives the right derivative \eqref{eq:hiddender}. The difference \eqref{eq:wedge} is algebraic. These derivatives are evaluated at zero investment and do not claim that each public/hidden equilibrium payoff function is globally ordered for all $\lambda$.
+The total derivative along the public price-equilibrium path gives equation~\eqref{eq:publicder}. For hidden $\lambda$, hold A's price at the price chosen under its equilibrium belief, while reoptimizing B's price conditional on B's true $\lambda$. At $\lambda=0$, the envelope theorem gives the right derivative \eqref{eq:hiddender}. The difference \eqref{eq:wedge} can be decomposed by the envelope theorem as
+\begin{equation}
+\left.\frac{\dd V_B^{\PP}}{\dd\lambda}-
+\frac{\partial V_B^{\HH}}{\partial\lambda}\right|_0
+=\left.\frac{\partial U_B}{\partial p_{A,1}}\right|_0
+\left.\frac{\dd p_{A,1}^*}{\dd\lambda}\right|_0
+=-\frac{\delta(3t-d)(9t+d)}{162t^2},
+\label{eq:commitmentidentity}
+\end{equation}
+where $U_B$ is B's gross continuation payoff before optimizing its first-period price. At the no-learning baseline, its partial derivative with respect to the incumbent's price is $(3t-d)/(6t)>0$. Equation~\eqref{eq:commitmentidentity} is a standard strategic-commitment chain rule specialized to experience-driven future quality: it does \emph{not} establish a new general theory of investment observability. These derivatives are evaluated at zero investment and do not claim that each public/hidden equilibrium payoff function is globally ordered for all $\lambda$.
 
 \section{High-cost equilibrium expansion}\label{app:investment}
 
