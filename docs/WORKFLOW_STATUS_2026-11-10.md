@@ -1,5 +1,8 @@
 # Canonical workflow status — manuscript drafting session, 2026-11-10
 
+> **GENERAL-PARAMETER STAGE 4A (2026-11-10): original unbounded general high-cost theorem FAILED.** A strict exact monopoly-regime deviation is profitable at \(t=\delta=d_0=1,\;k_s=4/5,\;k_b=4\) despite the previously listed algebraic stability and incumbent-profit conditions: \(\Delta\Pi_A=11/648>0\). The corrected **compact-domain general-parameter pure-strategy theorem** adds \(0<d_0-\bar b<d_0+\bar s<3t\), baseline investments strictly inside the caps and a sufficiently small learning-cap \(\bar\lambda>0\), then obtains uniqueness and no profitable finite deviations by uniform Stage-1 strict concavity and Stage-0 strong monotonicity for sufficiently large \(k_\lambda\). See [general audit and proof](../audits/GENERAL_HIGH_COST_STAGE4A_2026-11-10.md), [clean-room code](../code/general_high_cost_stage4a.py), [execution log](../results/general_high_cost_stage4a.log), and [six parameter tests](../results/general_high_cost_numeric_results.json). These bounds are a **substantive model/domain change**, not evidence that unrestricted strategies are safe. The original theorem is NO-GO; the revised bounded pure-equilibrium theorem has a scoped mathematical certificate. No mixed PBE, human, formal, or novelty certification is implied. This latest addendum supersedes older open-status wording below for the **corrected theorem only**.
+
+
 **Authority:** [ryotamatsuki/research-paper-workflow](https://github.com/ryotamatsuki/research-paper-workflow) current `main`, **v2.9** (`GOVERNANCE.md` → `THEORY_PAPER_RESEARCH_PIPELINE.md` → stage templates and figure/exposition checklists).
 
 
@@ -13,7 +16,7 @@
 |---|---|---|---|
 | 0–3 candidate, sources, novelty pre-screen | RETROSPECTIVE / INCOMPLETE | research_history, related_literature_master, novelty_matrix | No fully documented source-exhaustive novelty kill or canonical parent mapping |
 | 4 model derivation | ANALYTICAL CANDIDATE | docs/model.md; code/finite_cost_proof.py; appendices in paper/main.tex | Need clean-room, off-path/global domain proof |
-| 4A independent adversarial math | **UNRESOLVED — NOT PASSED** | Fresh independent algebraic price FOCs and welfare derivatives; script reproduction | Independent global candidate-deviation and alternative-equilibrium audit not completed |
+| 4A independent adversarial math | **FAIL: old unbounded theorem / SCOPED ALGEBRAIC PASS: corrected compact pure theorem** | General counterexample plus 6 non-normalized tests and strong-monotonicity/concavity argument | Formal global mixed-PBE, unlimited quality investments, author check not covered; material model-scope change requires approval |
 | 5 mechanism hardening | PARTIAL | experience-feedback diagnostic; fixed-s,b welfare counterfactual | Formal diagnostic proof/full alternative mechanism assessment open |
 | 6 novelty re-kill | **UNRESOLVED — NOT PASSED** | 24-paper master, Section 7.3 Baik & Kim crosswalk | Latest Kim & Poggi revised full text and parent-theorem absorption need review |
 | 7 welfare | PARTIAL | model surplus formula, benchmark and `W=CS+profits` identity | Welfare selection under alternative equilibria unresolved |
@@ -46,7 +49,7 @@
 
 ## Mandatory next gates
 
-1. Stage 4A: clean-room finite-deviation audit, separate multiplicity search, boundary/corners, off-path histories, proof-readable certificates.
+1. Stage 4A: **old unbounded general theorem fails**; adopt and review the explicitly bounded general high-cost theorem or prove new no-monopoly-deviation conditions for the original unlimited action domain. The bounded pure version now has a compact/full-interval proof argument, direct-payoff numerical stress tests and a permanent exact counterexample.
 2. Stage 6: theorem-to-theorem parent-class matching, especially Baik & Kim 2020 Section 7.3, Cabral–Riordan 1994, Kim–Poggi September 2026 revision, Cohen–Levinthal 1994.
 3. Stage 7.5A: generality/portability and formal-verification applicability; do not mark `N/A` without a reason.
 4. Stage 8: author judgment record, theory freeze **only after** preceding gates PASS.
