@@ -1,5 +1,8 @@
 # Submission-oriented roadmap
 
+> **Stage 6 (2026-11-10): CONDITIONAL GO — originality uncertified.** Existing R&D observability-profit/welfare signs and the commitment wedge must be described as known. A specific feedback-mediated joint equilibrium result remains a candidate. Before claiming evidence-scoped novelty, close parent-theorem absorption against dynamic-learning and strategic-investment literature (especially Cabral & Riordan 1994; Bulow et al. 1985), using complete theorem statements. Do not change the bounded Stage-4A model or add unrelated game features for novelty optics. Audit: [STAGE6_NOVELTY_REKILL_2026-11-10.md](../audits/STAGE6_NOVELTY_REKILL_2026-11-10.md).
+
+
 Objective: submit a defensible, concise, analytically focused paper to an appropriate field journal, rather than add unneeded modeling features.
 
 ## Priority 0 — reproducibility and math (must pass before submission)
