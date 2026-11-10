@@ -1,5 +1,8 @@
 # Propositions and verification register
 
+> **Stage 6 novelty assessment (2026-11-10):** The general strategic-observability wedge of P1 is **not an original theoretical principle** (classical strategic-commitment envelope term); its model-specific formula is independently derived. The joint sign pattern “both firm profits favor disclosure / welfare favors concealment” is **known** in Baik & Kim (2020) Section 7.3. P2 and the joint conditional three-R&D-investment theorem remain **candidate game-level contributions**, not certified novelty: closely related Kogan & El Ouardighi (2019) and Kim & Poggi (Sept-2026 revised) have been inspected, but full parent-theorem absorption is **UNRESOLVED**. See [Stage 6 audit](../audits/STAGE6_NOVELTY_REKILL_2026-11-10.md).
+
+
 > **2026-11-10 GENERAL HIGH-COST STAGE 4A RESULT:** The original general theorem with **unbounded \(s,b\)** FAILS a finite monopoly-regime deviation despite satisfying the previously advertised algebraic stability and incumbent-profit conditions. The **corrected theorem with primitive compact \(s,b,\lambda\) domains**, \(0<d_0-\bar b<d_0+\bar s<3t\), sufficiently small positive \(\bar\lambda\), and baseline \(s_*,b_*\) strictly interior, has a general-parameter pure-equilibrium existence/uniqueness proof via uniform Stage-1 strict concavity and Rosen-style Stage-0 strong monotonicity. The strict private-profit/social-welfare reversal survives for sufficiently large learning cost. **Do not cite the original unbounded theorem as established.** Report: [GENERAL_HIGH_COST_STAGE4A_2026-11-10.md](../audits/GENERAL_HIGH_COST_STAGE4A_2026-11-10.md).
 
 
