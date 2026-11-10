@@ -44,6 +44,7 @@ At benchmark (k_λ=0.3), the hidden equilibrium has (sapprox0.252492,;bapprox0.0
 - [results/benchmark.md](results/benchmark.md): values, inequalities, reproducibility cautions.
 - [literature/novelty_matrix.md](literature/novelty_matrix.md): closest prior work and non-claims.
 - [docs/roadmap.md](docs/roadmap.md): manuscript and referee-readiness checklist.
+- [docs/manuscript_outline.md](docs/manuscript_outline.md): **recommended lean six-section submission structure**, numbered-results budget and model-paper examples.
 - [docs/theorem_architecture.md](docs/theorem_architecture.md): proposed lemma/proposition/theorem/corollary order, economic intuitions, proof dependencies, and caveats.
 - [code/finite_cost_proof.py](code/finite_cost_proof.py): original symbolic proof/certification script.
 - [results/finite_cost_proof_log.txt](results/finite_cost_proof_log.txt): original run log.
