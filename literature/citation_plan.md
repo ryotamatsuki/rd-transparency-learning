@@ -1,6 +1,6 @@
 # Related Literature citation plan / 本文での引用配置（2026-11-10）
 
-**Source of record:** [related_literature_master.md](related_literature_master.md) contains summaries, exact links and caveats for 24 publications/working papers. [paper/references.bib](../paper/references.bib) contains BibTeX keys. Do **not** interpret "24 registered" as "all 24 must appear in a short manuscript". The 2026 revision and some older theorem statements still require full-text comparison.
+**Source of record:** [related_literature_master.md](related_literature_master.md) contains summaries, exact links and caveats for 27 publications/working papers. [paper/references.bib](../paper/references.bib) contains BibTeX keys. Do **not** interpret "24 registered" as "all 24 must appear in a short manuscript". The 2026 revision and some older theorem statements still require full-text comparison.
 
 ## Minimal main-text citation set: 12–15 papers, organized by *economic channel* (not a chronological list)
 
@@ -70,4 +70,10 @@ Write: Investment in learning capability and endogenous portfolios are familiar;
 
 ## Bibliography editing rules
 
-Use BibTeX keys found in \`paper/references.bib\`. The master's 24 records include works not to be automatically cited in a compact paper. Draft only as many references as needed to establish the chain from observability, to learning, to direction of innovation; **bibliographic completeness in the repository is compatible with narrative parsimony in the paper**.
+Use BibTeX keys found in \`paper/references.bib\`. The master's 27 records include works not to be automatically cited in a compact paper. Draft only as many references as needed to establish the chain from observability, to learning, to direction of innovation; **bibliographic completeness in the repository is compatible with narrative parsimony in the paper**.
+
+## Stage 6 narrowing note (2026-11-10)
+
+New mandatory canonical-class citations (both included in \`paper/references.bib\`): \`\citep{FudenbergTirole1984,BulowGeanakoplosKlemperer1985}\` on the standard strategic-investment reaction term and \`\citep{KoganElOuardighi2019}\` on already-known price competition with **both autonomous and induced quality learning**. These are more direct prior-art threats than generic Hotelling or institutional disclosure references. See [Stage 6 report](../audits/STAGE6_NOVELTY_REKILL_2026-11-10.md).
+
+Claim discipline: the generic envelope wedge is **absorbed as strategic-commitment theory**; the profit/welfare sign pair is documented by Baik & Kim (2020, Section 7.3); the dual form of learning/quality effort is documented by Kogan & El Ouardighi (2019). The **precise three-investment joint result with investable, disclosed learning efficiency times own current share** is at most **candidate game-level novelty**, not a verified priority claim.
