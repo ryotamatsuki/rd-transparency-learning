@@ -33,6 +33,8 @@ jobs:
         run: python code/independent_payoff_audit.py
       - name: Independent Stage 4A exact algebra, globality and finite deviations
         run: python code/stage4a_independent_audit.py | tee stage4a-independent-run.log
+      - name: Run independent general-parameter Stage 4A checks and retained counterexample
+        run: python code/general_high_cost_stage4a.py
       - name: Upload stdout for independent audit
         if: always()
         uses: actions/upload-artifact@v4
