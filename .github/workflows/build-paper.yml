@@ -1,0 +1,49 @@
+name: Build research manuscript PDF
+
+on:
+  push:
+    paths:
+      - "paper/**"
+      - ".github/workflows/build-paper.yml"
+  pull_request:
+    paths:
+      - "paper/**"
+      - ".github/workflows/build-paper.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  latex:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile manuscript (latexmk handles repeated LaTeX/BibTeX passes)
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          working_directory: paper
+          texlive_version: 2026
+          args: "-pdf -file-line-error -halt-on-error -interaction=nonstopmode"
+      - name: Fail if output PDF is missing
+        run: test -s paper/main.pdf
+      - name: Record potential TeX and BibTeX warnings
+        if: always()
+        run: |
+          if test -f paper/main.log; then
+            grep -E "LaTeX Warning:|Overfull \\hbox|Citation.*undefined|Reference.*undefined" paper/main.log > paper/warnings.txt || true
+            cat paper/warnings.txt
+          fi
+      - name: Upload build artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper-draft-pdf-and-log
+          path: |
+            paper/main.pdf
+            paper/main.log
+            paper/main.blg
+            paper/warnings.txt
+          if-no-files-found: warn
